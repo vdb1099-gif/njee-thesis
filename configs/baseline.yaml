@@ -1,0 +1,10 @@
+seed: 42
+
+data:
+  n: 1000
+  d: 8
+  generator: independent_bernoulli
+
+generator:
+  p: 0.5
+  epsilon: 0.15

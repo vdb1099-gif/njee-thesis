@@ -1,0 +1,23 @@
+{
+    "seed": 42,
+    "n": 1000,
+    "d": 8,
+    "independent_bernoulli": {
+        "p": 0.5,
+        "dataset_shape": [
+            1000,
+            8
+        ],
+        "empirical_mean": 0.494625,
+        "true_entropy_nats": 5.545177444479562
+    },
+    "binary_chain": {
+        "epsilon": 0.15,
+        "dataset_shape": [
+            1000,
+            8
+        ],
+        "empirical_flip_rate": 0.14714285714285713,
+        "true_entropy_nats": 3.6521107952018816
+    }
+}
