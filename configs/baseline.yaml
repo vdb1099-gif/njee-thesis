@@ -1,10 +1,16 @@
 seed: 42
 
-data:
-  n: 1000
-  d: 8
-  generator: independent_bernoulli
+#data:
+#  generator: independent_bernoulli
+#  n: 1000
+#  d: 8
+#  params:
+#    p: 0.5
 
-generator:
-  p: 0.5
-  epsilon: 0.15
+# Esempio alternativo: binary chain
+data:
+   generator: binary_chain
+   n: 1000
+   d: 8
+   params:
+     epsilon: 0.15

@@ -53,16 +53,6 @@ def independent_bernoulli_entropy(
     return d * binary_entropy(p)
 
 
-def independent_bernoulli_entropy_general(
-    probabilities,
-) -> float:
-    """
-    Entropia congiunta di Bernoulli indipendenti
-    con probabilità eventualmente differenti.
-    """
-
-    return sum(binary_entropy(p) for p in probabilities)
-
 
 def binary_chain_entropy(
     epsilon: float,

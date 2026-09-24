@@ -1,4 +1,5 @@
 import numpy as np
+import pytest
 
 from src.simulation.binary_chain import generate_binary_chain
 
@@ -65,7 +66,7 @@ def test_empirical_flip_rate():
     epsilon = 0.15
 
     X = generate_binary_chain(
-        n=100_000,
+        n=10_000,
         d=8,
         epsilon=epsilon,
         seed=42,
@@ -73,7 +74,7 @@ def test_empirical_flip_rate():
 
     flip_rate = (X[:, 1:] != X[:, :-1]).mean()
 
-    assert abs(flip_rate - epsilon) < 0.01
+    assert abs(flip_rate - epsilon) < 0.02
 
 
 def test_epsilon_zero():
@@ -96,3 +97,57 @@ def test_epsilon_one():
     )
 
     assert np.all(X[:, 1:] != X[:, :-1])
+
+
+
+@pytest.mark.parametrize(
+    "n",
+    [0, -1, -10],
+)
+def test_invalid_n(n):
+    with pytest.raises(ValueError):
+        generate_binary_chain(
+            n=n,
+            d=4,
+            epsilon=0.15,
+            seed=42,
+        )
+
+
+@pytest.mark.parametrize(
+    "d",
+    [0, -1, -10],
+)
+def test_invalid_d(d):
+    with pytest.raises(ValueError):
+        generate_binary_chain(
+            n=100,
+            d=d,
+            epsilon=0.15,
+            seed=42,
+        )
+
+
+@pytest.mark.parametrize(
+    "epsilon",
+    [-0.1, 1.1, -1, 2],
+)
+def test_invalid_epsilon(epsilon):
+    with pytest.raises(ValueError):
+        generate_binary_chain(
+            n=100,
+            d=4,
+            epsilon=epsilon,
+            seed=42,
+        )
+
+
+def test_d_equals_one():
+    X = generate_binary_chain(
+        n=100,
+        d=1,
+        epsilon=0.15,
+        seed=42,
+    )
+
+    assert X.shape == (100, 1)

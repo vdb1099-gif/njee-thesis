@@ -1,4 +1,5 @@
 import numpy as np
+import pytest
 
 from src.simulation.ground_truth import (
     binary_entropy,
@@ -53,3 +54,12 @@ def test_binary_chain_entropy_epsilon_half():
         H,
         8 * np.log(2),
     )
+
+
+def test_binary_chain_entropy_d_equals_one():
+    H = binary_chain_entropy(
+        epsilon=0.15,
+        d=1,
+    )
+
+    assert H == pytest.approx(np.log(2))

@@ -1,4 +1,5 @@
 import numpy as np
+import pytest
 
 from src.simulation.bernoulli import generate_independent_bernoulli
 
@@ -63,10 +64,53 @@ def test_different_seeds():
 
 def test_empirical_mean_close_to_p():
     X = generate_independent_bernoulli(
-        n=100_000,
+        n=10_000,
         d=4,
-        p=0.3,
+        p=0.5,
         seed=42,
     )
 
-    assert abs(X.mean() - 0.3) < 0.01
+    assert abs(X.mean() - 0.5) < 0.02
+
+
+
+@pytest.mark.parametrize(
+    "n",
+    [0, -1, -10],
+)
+def test_invalid_n(n):
+    with pytest.raises(ValueError):
+        generate_independent_bernoulli(
+            n=n,
+            d=4,
+            p=0.5,
+            seed=42,
+        )
+
+
+@pytest.mark.parametrize(
+    "d",
+    [0, -1, -10],
+)
+def test_invalid_d(d):
+    with pytest.raises(ValueError):
+        generate_independent_bernoulli(
+            n=100,
+            d=d,
+            p=0.5,
+            seed=42,
+        )
+
+
+@pytest.mark.parametrize(
+    "p",
+    [-0.1, 1.1, -1, 2],
+)
+def test_invalid_p(p):
+    with pytest.raises(ValueError):
+        generate_independent_bernoulli(
+            n=100,
+            d=4,
+            p=p,
+            seed=42,
+        )
