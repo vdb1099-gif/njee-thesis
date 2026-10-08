@@ -1,0 +1,28 @@
+# Single-replica correctness baseline, not an estimator-accuracy experiment.
+seed: 42
+data:
+  generator: binary_chain
+  n: 23
+  d: 3
+  params:
+    epsilon: 0.15
+neural:
+  split_seed: 43
+  split_fractions: [0.6, 0.2, 0.2]
+  training_seed: 202
+  component_order: [0, 1, 2]
+  alphabet_policy: declared
+  marginal_method: train_plugin
+  hidden_sizes: [4]
+  activation: relu
+  optimizer: adam
+  learning_rate: 0.01
+  batch_size: 4
+  max_epochs: 2
+  patience: 2
+  min_delta: 0.0
+  device: cpu
+  reproducibility_mode: strict
+  num_workers: 0
+output_dir: results/neural_baseline
+run_id: tiny-baseline
