@@ -1,0 +1,12 @@
+campaign_id: tiny-development
+purpose: development
+n_replicas: 2
+master_seed: 314159
+baseline_config: neural_baseline.yaml
+output_dir: results/neural_campaign
+aggregation:
+  bootstrap_seed: 271828
+  bootstrap_draws: 200
+  paired_comparisons:
+    - [njee, plug_in_train]
+    - [njee, miller_madow_train]
