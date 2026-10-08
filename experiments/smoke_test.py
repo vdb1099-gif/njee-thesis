@@ -1,6 +1,9 @@
 import argparse
 import json
 from pathlib import Path
+from time import perf_counter
+
+from src.estimators import MillerMadowEstimator, PlugInEstimator
 
 from src.simulation.factory import (
     generate_dataset,
@@ -83,6 +86,24 @@ def main():
         "dataset_shape": list(X.shape),
         "true_entropy_nats": float(H_true),
     }
+
+    result["entropy_unit"] = "nats"
+    result["aggregation"] = "joint"
+    result["component_order"] = list(range(X.shape[1]))
+    result["estimators"] = {}
+    for name, estimator in (
+        ("plug_in", PlugInEstimator()),
+        ("miller_madow", MillerMadowEstimator()),
+    ):
+        start = perf_counter()
+        estimate = estimator.estimate(X)
+        runtime = perf_counter() - start
+        result["estimators"][name] = {
+            "entropy_nats": estimate,
+            "error_nats": estimate - float(H_true),
+            "runtime_seconds": runtime,
+        }
+        print(f"{name}: {estimate:.6f} nats")
 
     if generator_name == "binary_chain":
         result["empirical_flip_rate"] = flip_rate
