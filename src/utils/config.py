@@ -89,6 +89,13 @@ def validate_config(
             f"expected int, got {seed!r}."
         )
 
+    # np.random.seed in set_seed requires an unsigned 32-bit integer.
+    if not 0 <= seed <= 2**32 - 1:
+        raise ValueError(
+            f"Invalid value for 'seed' in '{path}': "
+            f"expected 0 <= seed <= 4294967295, got {seed!r}."
+        )
+
     # ----- data -----
 
     if "data" not in config:

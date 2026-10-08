@@ -2,18 +2,20 @@ import random
 
 import numpy as np
 import torch
+import pytest
 
 from src.utils.seed import set_seed
 
 
-def test_seed_reproducibility():
-    set_seed(42)
+@pytest.mark.parametrize("seed", [42, 0, 1, 2**32 - 1])
+def test_seed_reproducibility(seed):
+    set_seed(seed)
 
     python_1 = random.random()
     numpy_1 = np.random.rand()
     torch_1 = torch.rand(1)
 
-    set_seed(42)
+    set_seed(seed)
 
     python_2 = random.random()
     numpy_2 = np.random.rand()

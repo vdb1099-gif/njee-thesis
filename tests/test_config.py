@@ -1,6 +1,51 @@
 import pytest
+import yaml
 
 from src.utils.config import load_config
+
+
+@pytest.mark.parametrize("seed", [0, 1, 2**32 - 1])
+def test_valid_seed_boundaries(tmp_path, seed):
+    config_file = tmp_path / "config.yaml"
+    config_file.write_text(yaml.safe_dump({
+        "seed": seed,
+        "data": {
+            "generator": "binary_chain", "n": 10, "d": 1,
+            "params": {"epsilon": 0.15},
+        },
+    }), encoding="utf-8")
+
+    assert load_config(config_file)["seed"] == seed
+
+
+@pytest.mark.parametrize("seed,expected", [
+    (-1, "expected 0 <= seed <= 4294967295"),
+    (2**32, "expected 0 <= seed <= 4294967295"),
+    (True, "expected int"),
+    (False, "expected int"),
+    (1.5, "expected int"),
+    (1.0, "expected int"),
+    ("1", "expected int"),
+    (None, "expected int"),
+])
+def test_invalid_seed_rejected_during_config_loading(tmp_path, seed, expected):
+    config_file = tmp_path / "config.yaml"
+    config_file.write_text(yaml.safe_dump({
+        "seed": seed,
+        "data": {
+            "generator": "binary_chain", "n": 10, "d": 1,
+            "params": {"epsilon": 0.15},
+        },
+    }), encoding="utf-8")
+
+    with pytest.raises(ValueError) as exc:
+        load_config(config_file)
+
+    message = str(exc.value)
+    assert "'seed'" in message
+    assert str(config_file) in message
+    assert expected in message
+    assert repr(seed) in message
 
 
 def test_load_valid_binary_chain_config(tmp_path):
