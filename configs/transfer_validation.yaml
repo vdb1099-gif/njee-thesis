@@ -1,0 +1,74 @@
+schema: njee-experiment3-v1
+couplings:
+- 0.1
+- 0.3
+- 0.5
+- 0.8
+delays:
+- 1
+- 2
+- 3
+- 5
+lengths:
+- 1000
+- 5000
+- 10000
+replicas: 50
+null_delay: 1
+noise_x: 0.1
+noise_y: 0.1
+burn_in: 1000
+initial: random
+candidates:
+- 1
+- 2
+- 3
+- 5
+common_span: 6
+gap: 6
+purge: true
+surrogate_draws: 999
+alpha: 0.05
+family_size: 8
+master_seed_start: 180000
+bootstrap_master: 271818
+bootstrap_draws: 10000
+output_root: results/experiment3_final
+reference:
+  method: pair-chain-power-coupling-v1
+  tv_tolerance: 1.0e-13
+  state_memory_cap: 8
+  floating_point_bound: truncation bound excludes roundoff
+inference:
+  'null': forward no-coupling / reverse no-feedback under known path kernels
+  surrogate: oracle-conditional-path-frozen-statistic-v1
+  multiple_comparisons: Bonferroni eight canonical lag-direction tests per replica
+  lag_selection: validation CE difference; ascending candidate ties; separate test
+    estimation
+  accuracy: oracle true-delay signed test-direction difference; forward validation-lag
+    accuracy
+  intervals: pointwise exploratory independent-process-replica percentile bootstrap
+  failure: no retry/replacement; incomplete family has no decision
+neural:
+  split_seed: 0
+  split_fractions:
+  - 0.6
+  - 0.2
+  - 0.2
+  training_seed: 0
+  component_order:
+  - placeholder
+  alphabet_policy: declared
+  marginal_method: train_plugin
+  hidden_sizes:
+  - 16
+  activation: relu
+  optimizer: adam
+  learning_rate: 0.01
+  batch_size: 64
+  max_epochs: 20
+  patience: 5
+  min_delta: 0.0001
+  device: cpu
+  reproducibility_mode: strict
+  num_workers: 0

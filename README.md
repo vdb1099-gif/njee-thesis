@@ -1,199 +1,243 @@
-# NJEE Thesis Project
+# Neural Information Estimation
 
-Implementation and experimental validation of **Neural Joint Entropy Estimation (NJEE)** for discrete multivariate data, with classical entropy baselines and synthetic distributions with analytical ground truth.
+Research software for a Master's thesis on **Neural Joint Entropy Estimation (NJEE)** and its conditional extension. The project implements discrete entropy, mutual information (MI), conditional mutual information (CMI) and transfer entropy (TE), with classical baselines, synthetic validation protocols, ablations and reproducible reporting.
 
-**Status updated: 9 October 2026.** The NJEE estimator, single-run pipeline, multi-replica campaigns and train/validation optimization diagnostic are implemented. Preliminary development experiments have been completed locally; a final scientific evaluation is still pending.
+The estimators and experiment infrastructure are implemented. Development pilots and a training/validation optimization diagnostic have been completed locally. Final scientific campaigns and validation of the intended Linux deployment remain separate milestones. Software correctness tests do not establish statistical accuracy or final scientific conclusions.
 
-## Current project status
-
-| Area | Implemented functionality | Status |
-| --- | --- | --- |
-| Simulation | Independent Bernoulli and dependent binary-chain generators; analytical entropy; finite-PMF entropy | Implemented and tested |
-| Classical estimators | Plug-in and Miller–Madow joint entropy | Implemented and tested |
-| Data protocol | Reproducible IID train/validation/test splits; categorical identities, encoding and overlap checks | Implemented and tested |
-| Neural models | Conditional MLP classifiers with one or two ReLU hidden layers | Implemented and tested |
-| NJEE | Training plug-in marginal plus held-out conditional cross-entropies; per-term diagnostics | Implemented and tested |
-| Experiment runners | Single replica and sequential multi-replica campaigns with provenance and failure records | Implemented and tested |
-| Metrics | Bias, MAE, RMSE, sample SD, timings, replica bootstrap and paired comparisons | Implemented and tested |
-| Development validation | Five pilot scenarios; paired optimization diagnostic on four scenarios | Completed locally on 8 October 2026 |
-| Final evaluation | Larger, frozen-protocol study supporting thesis conclusions | Pending |
-| Extensions | C-NJEE, MI, CMI and Transfer Entropy | Not implemented |
-
-The checked-in neural configurations are deliberately tiny **software correctness examples**. Their sample sizes, epoch budgets and replica counts are not a recommended scientific evaluation protocol.
-
-## Installation
-
-Use Python 3.13 (the local environment uses **3.13.0**) and Git. The pinned dependencies require Python 3.12 or newer; Python 3.12 has not been verified here. Python 3.11 is insufficient for the current pins.
-
-Run from Windows PowerShell:
-
-```powershell
-git clone https://github.com/vdb1099-gif/njee-thesis.git
-cd njee-thesis
-py -3.13 -m venv .venv
-.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-```
-
-Run all following commands from the repository root with the virtual environment active. On other platforms, create and activate an equivalent Python virtual environment.
-
-## Quick start
-
-```powershell
-# Classical estimators on synthetic data
-python -m experiments.smoke_test --config configs/baseline.yaml --output-dir results
-
-# One NJEE replica and four classical comparison variants
-python -m experiments.neural_baseline --config configs/neural_baseline.yaml --run-id example-run
-
-# Two-replica development campaign
-python -m experiments.neural_campaign --config configs/neural_campaign.yaml
-
-# Inspect saved campaign artifacts without rerunning
-python -m experiments.neural_campaign --inspect results/neural_campaign/tiny-development
-
-# Automated test suite; use a writable, ignored temporary directory
-python -m pytest -q --basetemp=results/pytest_tmp
-```
-
-Neural runs and campaigns refuse existing output directories, including incomplete or failed runs. Use a fresh `--run-id` for another baseline run, or a new `campaign_id`/`--output-dir` for another campaign. There is no automatic resume. The classical smoke test overwrites its result file when reusing an output directory.
-
-## NJEE estimation protocol
-
-For the configured component order, the estimator uses the chain rule:
+NJEE uses the entropy chain rule:
 
 ```text
-H(X1, ..., Xd) = H(X1) + sum(i=2..d) H(Xi | X1, ..., X(i-1))
+H(X_1, ..., X_d) = H(X_1) + sum(j=2..d) H(X_j | X_1, ..., X_(j-1))
 ```
 
-The implementation estimates the first marginal with the plug-in estimator on **training data**. Each subsequent term is a separate conditional classifier trained on training data, with dense one-hot conditioning features and categorical target indices. Adam minimizes cross-entropy; validation loss controls early stopping and checkpoint selection. The selected checkpoint is restored and evaluated on **held-out test data**. Joint entropy is the sum of the training marginal and the mean test cross-entropy of each conditional term, in **nats**.
+The implementation combines a training-set plug-in first marginal with neural conditional cross-entropies evaluated on held-out test data. C-NJEE estimates conditional joint entropy by fitting a classifier for every chain-rule term, including the first.
 
-The categorical encoder is fitted on training data. It supports caller-declared alphabets or training-observed alphabets; unknown categories are rejected. The binary experiment runners use declared `{0, 1}` alphabets. Dataset/split identities, variable order, row indices and disjoint partitions are checked to prevent leakage. Neural estimates can depend on component order because conditional models are fitted separately.
+## Quick Start
 
-The API is `NeuralJointEntropyEstimator(config, alphabets=...).fit(train, validation).estimate(test)`, using `CategoricalBatch` partitions and a validated `NeuralConfig`. It returns a `NeuralEntropyReport` with the total and per-term diagnostics. This differs from the classical `estimate(ndarray) -> float` interface. Refit after a successful fit is rejected; construct a fresh estimator for another run.
+Create and activate the environment using [Environment setup](#environment-setup). Then check the software and inspect the four study designs:
 
-Held-out cross-entropy remains a model-based estimate of conditional entropy. Finite samples, optimization and model approximation affect its error; implementing the chain rule does not establish accuracy or convergence. The API also cannot enforce one-time scientific use of test results.
-
-## Configuration
-
-| File | Purpose | Checked-in example |
-| --- | --- | --- |
-| `configs/baseline.yaml` | Classical smoke test | Binary-chain synthetic data |
-| `configs/neural_baseline.yaml` | One NJEE run | Binary chain, n=23, d=3; hidden [4]; 2 epochs; strict CPU |
-| `configs/neural_campaign.yaml` | Replicas of one baseline scenario | 2 development replicas; 200 bootstrap draws |
-
-Synthetic data settings include `seed`, `data.generator`, `data.n`, `data.d` and `data.params`. Supported generators are `independent_bernoulli` (`p`) and `binary_chain` (`epsilon`). Sample count and dimension are positive integers; probabilities lie in `[0, 1]`; seeds lie in `[0, 2**32 - 1]`.
-
-The neural baseline additionally requires `neural`, `output_dir` and `run_id`. Every neural field is explicit and validated: split seed/fractions, training seed, component order, alphabet policy, marginal method, hidden sizes, activation, optimizer, learning rate, batch size, epoch cap, patience, minimum improvement, device, reproducibility mode and worker count. Current choices include one or two ReLU hidden layers, Adam, `train_plugin` marginal, `seeded` or `strict` execution, CPU or an explicit CUDA device, and zero data-loader workers.
-
-Campaign configuration selects a baseline configuration and supplies `campaign_id`, `purpose` (`development` or `final`), replica count, output directory and aggregation settings. Seeds come from either a `master_seed` or explicit replica seed records. Data, split and training seeds are derived separately; dataset-seed collisions are rejected. A campaign runs one scenario sequentially. Setting `purpose: final` labels intent and does not by itself establish scientific adequacy.
-
-**Path rules:** smoke-test relative CLI paths are resolved from the repository root. Neural CLI/output paths are resolved from the current working directory. A campaign's `baseline_config` reference is resolved relative to its campaign YAML file.
-
-## Results and provenance
-
-Generated outputs under `results/` are ignored by Git and are **not included in a fresh clone**.
-
-### Classical smoke test
-
-`results/smoke_test_result.json` records the generation settings, dataset shape, analytical truth, component order, joint aggregation and units. Each classical estimator records its estimate, signed error (`estimate - truth`) and runtime. Binary-chain output also includes empirical flip rate (`null` for d=1).
-
-### Single NJEE run
-
-A successful baseline creates `output_dir/run_id/` with:
-
-- `manifest.json`: resolved settings, seeds, sample counts, dataset hash, Git/environment provenance and completion status;
-- `dataset.npz`: generated samples;
-- `split.npz` and `split.json`: reproducible partition indices and metadata;
-- `results.json`: `njee`, `plug_in_full`, `miller_madow_full`, `plug_in_train` and `miller_madow_train` estimates, errors and runtimes;
-- `njee_diagnostics.json`: chain contributions, selected epochs, stopping reasons, loss histories, effective term seeds and backend metadata.
-
-Only `manifest.status = "complete"` certifies successful completion. Execution failures retain a failed manifest; an interrupted process can leave a running manifest. Model checkpoints are used in memory; this pipeline does not export trained model weights.
-
-Classical `full` variants use all generated observations, while classical `train` variants use only training rows. NJEE uses training, validation and test for different roles. These sample protocols must accompany any method comparison.
-
-### Multi-replica campaigns
-
-Campaign directories contain `campaign_manifest.json`, `raw_results.json`, `aggregation.json`, generated replica configurations and individual runs under `replicas/`. Failed replicas are recorded and remaining replicas continue; interruptions preserve pending entries. Overall status distinguishes complete, complete with failures and interrupted execution.
-
-Aggregation reports successful/failed/not-attempted counts, mean estimate, bias, MAE, RMSE, sample standard deviation and runtime summaries. Deterministic 95% percentile bootstrap intervals resample **replicas**, not dataset rows. Paired comparisons use the shared successful replica IDs. Fewer than two successes yield no interval; small development samples and success-only intervals are not final evidence.
-
-## Development experiments already executed locally
-
-The following summaries come from the local artifacts dated **8 October 2026**, not from the tiny checked-in examples. The reports, experimental configurations, CSV exports and raw artifacts live under ignored `results/` directories and are unavailable in a fresh clone.
-
-### Scientific validation pilot (Task 012)
-
-Five development campaigns completed with **3 replicas each**, **15 successful replicas**, **75 estimator records** and **69 conditional fits**, with no failed runs or nonfinite estimates reported:
-
-| Distribution | d | n |
-| --- | --- | --- |
-| Independent Bernoulli, p=0.5 | 4 | 200 |
-| Independent Bernoulli, p=0.5 | 4 | 800 |
-| Binary chain, epsilon=0.15 | 4 | 200 |
-| Binary chain, epsilon=0.15 | 4 | 800 |
-| Binary chain, epsilon=0.15 | 12 | 800 |
-
-The pilot used IID 60/20/20 splits, hidden [16], ReLU, Adam 0.01, batch 64, maximum 20 epochs, patience 5, min_delta 0.0001 and strict CPU execution. Results varied by scenario: NJEE had lower observed error than the classical variants in the d=12 chain pilot, while several d=4 comparisons favored classical methods. Three replicas support preliminary diagnostics, not general superiority claims.
-
-Local report: `results/task012_pilot_20261008/TASK012_report.md`.
-
-### Train/validation optimization diagnostic (Task 013A)
-
-The diagnostic completed **96 candidate evaluations on 32 fresh datasets**, with **672 conditional fits** and no failed or incomplete evaluations reported. Four scenarios, eight replicas per scenario, compared:
-
-| Candidate | Maximum epochs | Patience |
-| --- | --- | --- |
-| A | 20 | 5 |
-| B | 60 | 5 |
-| C | 60 | 10 |
-
-All candidates shared datasets, splits, encoding and per-term seeds within each replica. Selection used training/validation data only: no test cross-entropy or joint entropy was evaluated. The frozen decision rule recommended **A (20 epochs, patience 5)**; larger budgets did not meet its required improvement across scenarios. The saved report labels this a development recommendation pending approval, and no final evaluation was launched. The checked-in correctness configuration still uses its separate 2-epoch budget.
-
-Local report: `results/task013a_optimization_20261008/TASK013A_report.md`.
-
-The diagnostic runner is available as:
-
-```powershell
-python -m experiments.neural_optimization --output-dir results/optimization-new-run
+```bash
+python -m pytest -q --basetemp=results/pytest_tmp
+python -m experiments.final_validation --dry-run
+python -m experiments.information_validation --dry-run
+python -m experiments.transfer_validation --dry-run
+python -m experiments.ablation_validation --dry-run
 ```
 
-It executes a fixed four-scenario study with eight replicas and three candidates, a 1800-second budget and a fresh output directory. It saves manifests, paired evaluations, train/validation artifacts, split metadata and selection output. This command launches the full development diagnostic; it is not a quick smoke test.
+The regression suite includes small training fixtures. Dry-runs resolve protocol metadata without training models or producing scientific evidence. Preparation and full campaign execution are described under [Frozen studies](#frozen-studies).
 
-## Classical estimators and ground truth
+## Implemented capabilities
 
-`PlugInEstimator` and `MillerMadowEstimator` accept NumPy categorical samples of shape `(n, d)` or `(n,)`. Each distinct row is a joint state. Labels may be integers, booleans or finite integer-valued floats, including negative and non-contiguous codes. Strings must be encoded first. Empty inputs, continuous measurements, missing values and masked arrays are rejected; input arrays are not modified. Preserve category identity when choosing a dtype: precision lost before estimation cannot be recovered.
+| Area | Functionality |
+| --- | --- |
+| Estimators | Plug-in, observed-support Miller–Madow, NJEE, C-NJEE, neural MI, CMI and TE |
+| Data contracts | Categorical identities, declared alphabets, one-hot features, IID splits, temporal embedding and purged chronological splits |
+| Simulation | Bernoulli vectors, binary chains, binary symmetric channels, conditional chains/forks and coupled binary paths |
+| Training | Conditional ReLU MLPs, Adam, validation-selected checkpoints and explicit random streams |
+| Validation | Frozen entropy, MI/CMI, TE and ablation studies with failures and provenance |
+| Reporting | 50 figure recipes, 13 table export types, CSV/LaTeX tables and SVG/PNG figures |
+| Deployment | Linux dependency profiles, preflight and artifact inventory/verification |
 
-Plug-in computes `-sum(p_hat * ln(p_hat))` over observed states. Miller–Madow adds `(K_observed - 1) / (2*n)` without clipping. Both are invariant to column permutation and return zero for constant samples. They count observed states without allocating the full joint alphabet.
-
-`independent_bernoulli_entropy(p, d)` and `binary_chain_entropy(epsilon, d)` provide analytical ground truth. `exact_entropy(probabilities)` computes entropy from an enumerated finite PMF or joint probability tensor with `0*ln(0)=0`. It requires finite probabilities in `[0, 1]` summing to one within absolute tolerance `1e-12`, with no silent normalization. Use float64 precision for PMF construction.
-
-## Reproducibility and verification
-
-Synthetic generators use local NumPy RNGs. Neural execution separates generation, splitting, initialization and minibatch shuffle seeds, and records effective seeds with software/device metadata.
-
-`seeded` mode sets seeds while retaining existing backend flags. `strict` mode also enables deterministic PyTorch algorithms, disables cuDNN benchmarking and configures deterministic cuDNN execution. Strict CUDA requires compatible cuBLAS workspace settings before initialization; unsupported deterministic operations raise errors. Requested unavailable devices are rejected without CPU fallback. Backend settings are restored after the scoped execution. No bitwise identity is guaranteed across different hardware or software environments, and runtimes vary.
-
-Tests cover synthetic ground truth, classical estimates, invalid inputs, split integrity, categorical leakage checks, configuration, seed derivation, MLP behavior, checkpoint selection, held-out NJEE evaluation, runner artifacts/failures, bootstrap metrics and the optimization diagnostic's test-access boundary. Latest local verification on **9 October 2026**: **644 tests passed** using the command above (29.41 seconds). This verifies the exercised software behavior, not scientific estimator accuracy.
+All information quantities use natural logarithms and **nats**. Continuous inputs require explicit discretization before categorical estimation.
 
 ## Repository structure
 
 ```text
-configs/                 YAML configurations for smoke test, baseline and campaign
-experiments/             Executable smoke, baseline, campaign and optimization runners
-src/
-  estimators/            Classical estimators, NJEE and conditional-term training
-  metrics/               Replica aggregation, bootstrap and paired comparisons
-  models/                Conditional MLP classifier
-  simulation/            Generators, factory and entropy ground truth
-  utils/                 Configuration, categorical contracts, splits and reproducibility
-tests/                   Unit and integration tests
-results/                 Local generated artifacts (ignored by Git)
-requirements.txt         Pinned dependencies
-pytest.ini               Test discovery restricted to tests/
+configs/                  Examples and checked-in frozen-policy mirrors
+experiments/              CLI entry points, protocol builders and controllers
+src/estimators/           Classical and neural information estimators
+src/models/               Conditional MLPs and ablation models
+src/simulation/           Generators and reference quantities
+src/utils/                Configuration, encoding, splits, temporal data and RNGs
+src/metrics/              Accuracy, paired comparisons and inference
+src/reporting/            Validated report generation, tables and figures
+tests/                    Unit and integration tests
+scripts/linux-preflight.sh
+requirements.txt          Local development environment pins
+requirements-linux.txt    Candidate Linux runtime dependency closure
+requirements-linux-test.txt
 ```
 
-## Remaining work
+## Environment setup
 
-The next scientific step is to settle the development training policy and conduct a larger final evaluation with frozen settings, independent replicas, sufficient uncertainty assessment and explicit sample-protocol comparisons. Broader scenario coverage, sensitivity to component order/model choices and thesis-ready result exports remain to be consolidated. C-NJEE, mutual information, conditional mutual information and Transfer Entropy remain future extensions.
+The local reference environment uses CPython 3.13. The intended Linux profile targets **CPython 3.13.x on x86-64**, using CPU execution. Validate pinned wheels, system compatibility and thread allocation on the destination machine before scientific execution.
+
+Windows development setup:
+
+```powershell
+py -3.13 -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m pip check
+```
+
+After reviewing package availability and the site's installation policy, the candidate Linux setup is:
+
+```bash
+python3.13 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-linux-test.txt
+python -m pip install --index-url https://download.pytorch.org/whl/cpu 'torch==2.14.0+cpu'
+python -m pip check
+```
+
+Candidate runtime pins include NumPy 2.5.3, SciPy 1.18.1, PyYAML 6.0.3 and Matplotlib 3.11.2. Consult the requirements files for the complete closure. `requirements-linux.txt` contains runtime dependencies; `requirements-linux-test.txt` adds pytest and its dependencies. PyTorch is installed separately. Target wheel availability, ABI compatibility and the complete transitive resolution require validation on a compatible Linux system. For offline installation, acquire compatible wheels on an approved machine, inspect their Python/platform tags and dependencies, record SHA-256 checksums and install from that verified wheelhouse using `--no-index --find-links`. Resolve unavailable or incompatible pins before execution.
+
+The installed NumPy and SciPy package metadata requires Python 3.12 or later, and SciPy permits NumPy versions from 2.0 up to, but excluding, 2.8. The declared NumPy pin meets that constraint. The deployment preflight specifically requires CPython 3.13. These metadata checks do not validate Linux wheel availability or the destination environment.
+
+Set `OMP_NUM_THREADS`, `MKL_NUM_THREADS`, `OPENBLAS_NUM_THREADS` and `NUMEXPR_NUM_THREADS` to the approved allocation before starting Python. Use a confirmed UTF-8 environment and a writable Matplotlib cache.
+
+For example, after assigning a positive integer to `REVIEWED_THREADS` from the site's allocation:
+
+```bash
+export OMP_NUM_THREADS="$REVIEWED_THREADS" MKL_NUM_THREADS="$REVIEWED_THREADS"
+export OPENBLAS_NUM_THREADS="$REVIEWED_THREADS" NUMEXPR_NUM_THREADS="$REVIEWED_THREADS"
+export MPLBACKEND=Agg PYTHONUTF8=1 PYTHONHASHSEED=0
+```
+
+Deployment preflight requires an explicit scratch parent and performs format checks there:
+
+```bash
+python -B -m experiments.deployment preflight --target-linux --include-tests --expected-commit REVIEWED_FULL_COMMIT --scratch-parent /path/to/approved/scratch --manifest /path/to/new-preflight.json
+```
+
+Use a clean checkout at the full reviewed commit, an existing writable scratch directory and a new manifest path whose parent exists. The target profile checks the exact CPU PyTorch build, dependency pins and effective thread/UTF-8 settings. The Linux wrapper accepts the same operational inputs and sets the three non-thread environment variables above:
+
+```bash
+bash scripts/linux-preflight.sh REVIEWED_FULL_COMMIT /path/to/approved/scratch /path/to/new-preflight.json
+```
+
+Preflight records environment and protocol metadata and leaves `launch_authorized` false. Successful preflight does not establish workload feasibility or scientific execution authorization.
+
+## Development examples and tests
+
+These commands perform computation and write local outputs. The checked-in neural baseline and campaign are small software examples with their own settings.
+
+```bash
+python -m experiments.smoke_test --config configs/baseline.yaml --output-dir results
+python -m experiments.neural_baseline --config configs/neural_baseline.yaml --run-id example-run
+python -m experiments.neural_campaign --config configs/neural_campaign.yaml
+python -m experiments.neural_campaign --inspect results/neural_campaign/tiny-development
+python -m pytest -q --basetemp=results/pytest_tmp
+```
+
+Neural output directories must be fresh, including after failure. Choose a new baseline run ID or campaign destination for another invocation. The classical smoke test overwrites its result file when its destination is reused. The optimization diagnostic is a separate development study.
+
+## Estimation and reproducibility
+
+NJEE adds a training plug-in first marginal to held-out conditional cross-entropies in the declared chain-rule order. C-NJEE fits a conditional classifier for every term. MI uses `H(X) - H(X|Y)` and CMI uses `H(X|Z) - H(X|Y,Z)`. TE delegates to CMI after explicit temporal embedding.
+
+Encoders fit on training rows. Features exclude the current target. Training batches optimize cross-entropy on raw logits, validation selects checkpoints, and test observations evaluate selected models. Components preserve common dataset and split identities. Raw signed MI, CMI and TE estimates are retained.
+
+Classical `full` variants use all observations; `train` variants use training rows only. Pairing by dataset does not equalize sample access between classical variants and neural evaluation.
+
+The principal frozen policy uses one 16-unit ReLU layer, Adam at learning rate 0.01, batch size 64, at most 20 epochs, patience 5 and minimum improvement 0.0001. It uses declared alphabets, strict CPU execution and zero DataLoader workers. IID splits are 60/20/20. Ablations vary settings explicitly; temporal studies use aligned chronological splits, configured gaps and purging.
+
+Generation, splitting, initialization, shuffle and analysis streams have recorded identities and deterministic derivations. Strict mode can reject unsupported deterministic operations. Reproducibility depends on resolved configurations, seeds, code, dependencies, hardware and threads. Bitwise identity across operating systems, hardware and library versions is not guaranteed.
+
+## Frozen studies
+
+| Study | Design | Independent sources | Focus |
+| --- | --- | --- | --- |
+| Entropy | 27 cells × 30 replicas | 810 datasets | NJEE versus plug-in and Miller–Madow, FULL and TRAIN |
+| MI/CMI | 85 cells × 50 replicas | 4,250 datasets | Signed errors, component relationships and null permutations |
+| TE | 51 cells × 50 replicas | 2,550 paths | Direction, validation-selected lag, history and path surrogates |
+| Ablations | 39 cells × 30 records | 120 shared datasets/paths | Ordering, architecture, sharing, training size, stopping, discretization and embedding |
+
+TE plans 30,600 TE fits, 61,200 conditional MLP fits and 20,379,600 surrogate statistics. Ablations produce 1,170 records using shared sources for paired comparisons. Terms, candidates, permutations and surrogate draws do not increase independent replication.
+
+The four primary entropy cells define 16 paired neural-versus-classical absolute-error contrasts. Each requires 30 complete pairs and uses a two-sided Bonferroni-adjusted 99.6875% t interval. Other performance summaries use separately labelled exploratory pointwise uncertainty. Failed replicas, incomplete pairs and unavailable decisions retain explicit counts. No automatic replacement is performed.
+
+MI/CMI null permutations use frozen models and exact conditioning strata where required. TE surrogate calibration depends on the configured structural-null path laws. Block permutations and circular shifts remain exploratory. Observational TE does not establish structural causality, and the physical delay need not uniquely maximize finite-history TE.
+
+References distinguish analytical truths from numerical stationary TE calculations. Truncation bounds exclude floating-point roundoff. A stationarity residual is a diagnostic, and reference approximation is separate from replica uncertainty.
+
+### Configuration architecture
+
+Python modules define and resolve authoritative frozen policies:
+
+| Study | Protocol file | CLI module | Checked-in mirror |
+| --- | --- | --- | --- |
+| Entropy | `experiments/final_protocol.py` | `experiments.final_validation` | Preparation generates baseline/campaign YAMLs |
+| MI/CMI | `experiments/information_protocol.py` | `experiments.information_validation` | `configs/information_validation.yaml` |
+| TE | `experiments/transfer_protocol.py` | `experiments.transfer_validation` | `configs/transfer_validation.yaml` |
+| Ablations | `experiments/ablation_protocol.py` | `experiments.ablation_validation` | `configs/ablation_validation.yaml` |
+
+The later CLIs check their YAML mirrors against Python definitions. Builders expand scenarios, audit effective seeds, compute relevant references and validate bundles. Experiment 1 workers consume generated campaign YAMLs referencing generated baseline YAMLs. Editing a mirror alone does not create an approved new protocol.
+
+### Preview, preparation and execution
+
+Metadata previews do not train models or generate scientific datasets:
+
+```bash
+python -m experiments.final_validation --dry-run
+python -m experiments.information_validation --dry-run
+python -m experiments.transfer_validation --dry-run
+python -m experiments.ablation_validation --dry-run
+```
+
+Preparation creates a new bundle containing resolved configurations and a protocol manifest:
+
+```bash
+python -m experiments.final_validation --prepare results/entropy-preparation
+python -m experiments.information_validation --prepare results/information-preparation
+python -m experiments.transfer_validation --prepare results/transfer-preparation
+python -m experiments.ablation_validation --prepare results/ablation-preparation
+```
+
+Review bundle hashes, environment, storage, threads, workload and scientific authorization before launch. Execution requires a clean, identifiable Git checkout. After those gates, the execution commands are:
+
+```bash
+python -m experiments.final_validation --execute results/entropy-preparation --authorize-execution
+python -m experiments.information_validation --execute results/information-preparation --authorize-execution
+python -m experiments.transfer_validation --execute results/transfer-preparation --authorize-execution
+python -m experiments.ablation_validation --execute results/ablation-preparation --authorize-execution
+```
+
+These launch full scientific workloads. Windows additionally requires the explicit `--allow-local-windows` exception. Consult each runner's `--help` for its path and control options.
+
+Baseline and campaign output paths are relative to the current working directory; a campaign resolves its `baseline_config` relative to its YAML file. The classical smoke test resolves relative paths from the checkout root. Experiment 1 resolves its scientific root from the prepared bundle against `--workdir` (the checkout by default); select a different root with `--output-root` during preview/preparation. The other three runners support `--output-dir` and `--log-dir` overrides. Preparation directories and scientific output directories must remain disjoint.
+
+Experiment 1 has an 18,000-second global controller budget and a shutdown reserve. Other controllers expose cancellation-file and interruption handling at their work boundaries. Do not assume that every fit stops immediately on cancellation or every runner has a hard deadline. Preserve partial artifacts. Existing scientific roots are refused; automatic retry, replacement and resume are not provided.
+
+## Scientific artifacts and reporting
+
+Artifacts record resolved settings, raw estimates, ledgers, seeds, dataset/split or timestamp identities, term diagnostics and timings. Available numeric checkpoints and completed artifacts carry hashes. Review completion and failure states before interpreting summaries. Scientific outputs are absent from a fresh clone.
+
+The reporting CLI supports `entropy`, `information`, `transfer` and `ablation`:
+
+```bash
+# Inspect figure/table contracts without scientific results
+python -m experiments.scientific_report --plan
+
+# Validate an existing scientific source
+python -m experiments.scientific_report --validate results/experiment2_final --experiment information
+
+# Generate a diagnostic report
+python -m experiments.scientific_report --generate results/experiment3_final --experiment transfer --mode diagnostic --output results/reports/transfer-diagnostic
+
+# Generate a reviewed final report
+python -m experiments.scientific_report --generate results/experiment2_final --experiment information --mode final --approval /path/to/reviewed-approval.json --output results/reports/information-final
+
+# Verify outputs and original inputs
+python -m experiments.scientific_report --verify-report results/reports/information-final --verify-inputs
+```
+
+Final mode requires complete validated authentic inputs and approval bound to their inventory hashes. Diagnostic mode labels incomplete evidence as non-final and still rejects corruption. Report destinations must be fresh and disjoint from scientific sources. For entropy archives, the default controller ledger is `control/ledger.json` inside the source; `--ledger` selects another archived ledger within that root.
+
+Keep the approval JSON outside the scientific source archive. It must contain `experiment`, `protocol_hash`, `source_inventory_hash`, `approved_for_final_reporting` set to `true`, and a nonempty `reviewed_by` string. The first three values must match source validation exactly. Supply this record only after reviewing those inputs. Relative report paths are resolved from the current working directory.
+
+Reports contain `report_manifest.json`, `validated_analysis.json`, `figure_index.json`, captions, CSV/LaTeX tables and SVG/PNG figures. Facets retain source-row provenance. Manifests record approval, code, environments and input/output hashes. Raw records preserve full precision independently of display rounding. LaTeX table consumers need `longtable`.
+
+For transferring reviewed artifacts:
+
+```bash
+python -m experiments.deployment inventory /path/to/artifact-tree /path/to/new-inventory.json
+python -m experiments.deployment verify /path/to/artifact-tree /path/to/new-inventory.json
+```
+
+Keep the inventory outside its payload. Verification checks safe entries, sizes and SHA-256 hashes. Hashes detect accidental changes; they do not replace scientific approval.
+
+## Remaining milestones
+
+Validate the destination environment, execute separately approved campaigns, review completed and partial artifacts, generate approved final reports and interpret the evidence. Final performance claims require those results. The optional financial-data application is outside the implemented studies.

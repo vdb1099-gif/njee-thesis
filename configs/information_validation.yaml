@@ -1,0 +1,73 @@
+schema: njee-experiment2-v1
+sample_sizes:
+- 250
+- 500
+- 1000
+- 5000
+- 10000
+replicas: 50
+mi_epsilon:
+- 0.0
+- 0.05
+- 0.15
+- 0.3
+- 0.5
+chain_epsilon_x:
+- 0.15
+- 0.5
+chain_epsilon_y:
+- 0.0
+- 0.05
+- 0.15
+- 0.3
+- 0.5
+fork_epsilon_x: # X and Y are conditionally independent given Z; marginal dependence may remain.
+- 0.15
+fork_epsilon_y:
+- 0.15
+- 0.5
+master_seed_start: 160000
+bootstrap_seed: 271816
+bootstrap_draws: 10000
+permutation_draws: 999
+test_alpha: 0.05
+output_root: results/experiment2_final
+analysis:
+  sampling_unit: independent_replica
+  inference: pointwise_exploratory
+  neural_direction: H(X)-H(X|Y); H(X|Z)-H(X|Y,Z)
+  classical_variants:
+  - plug_in_full
+  - miller_madow_full
+  - plug_in_train
+  - miller_madow_train
+  bootstrap: 95-percentile-paired-replica-10000-linear-quantiles
+  correlation: Pearson-component-errors-joint-replica-bootstrap
+  frequency_interval: 95-Clopper-Pearson
+  secondary_clipping: true
+  null_test: frozen-model-heldout-exact-strata-permutation-v1
+  p_value: (1+count(T_surrogate>=T_observed))/(B+1)
+  classical_significance_tests: false
+neural:
+  split_seed: 0
+  split_fractions:
+  - 0.6
+  - 0.2
+  - 0.2
+  training_seed: 0
+  component_order:
+  - X
+  alphabet_policy: declared
+  marginal_method: train_plugin
+  hidden_sizes:
+  - 16
+  activation: relu
+  optimizer: adam
+  learning_rate: 0.01
+  batch_size: 64
+  max_epochs: 20
+  patience: 5
+  min_delta: 0.0001
+  device: cpu
+  reproducibility_mode: strict
+  num_workers: 0

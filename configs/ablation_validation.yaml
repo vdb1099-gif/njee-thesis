@@ -1,0 +1,81 @@
+schema: njee-ablation-v1
+replicas: 30
+n: 2000
+d: 6
+epsilon: 0.15
+training_fractions:
+- 0.25
+- 0.5
+- 1.0
+architectures:
+- - 8
+- - 16
+- - 32
+- - 16
+  - 16
+- - 32
+  - 32
+permutation_seed: 190019
+random_orders: 5
+discretizations:
+- 2
+- 3
+- 5
+temporal:
+  coupling: 0.3
+  delay: 2
+  noise_x: 0.1
+  noise_y: 0.1
+  burn_in: 1000
+  initial: random
+  common_span: 3
+  gap: 3
+  purge: true
+  candidates:
+  - 2
+  horizon: 1
+master_seed: 190000
+bootstrap_seed: 271819
+bootstrap_draws: 10000
+output_root: results/ablation_final
+neural:
+  split_seed: 0
+  split_fractions:
+  - 0.6
+  - 0.2
+  - 0.2
+  training_seed: 0
+  component_order:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  alphabet_policy: declared
+  marginal_method: train_plugin
+  hidden_sizes:
+  - 16
+  activation: relu
+  optimizer: adam
+  learning_rate: 0.01
+  batch_size: 64
+  max_epochs: 20
+  patience: 5
+  min_delta: 0.0001
+  device: cpu
+  reproducibility_mode: strict
+  num_workers: 0
+policies:
+  sharing: fixed physical slots + term one-hot; shared trunk / distinct heads; joint
+    mean CE checkpoint
+  sharing_control: same representation/pooled objective/checkpoint; separate trunks
+    and heads
+  early_stopping_off: 20 epochs; last checkpoint; validation diagnostic only
+  subsets: nested prefixes of one TRAIN-only permutation; floor sizes; unchanged val/test
+  discretization: same independent Uniform[0,1) matrix; analytic equal-width bins;
+    H=d ln K
+  inference: exploratory pointwise replica bootstrap; no confirmatory significance
+    claims
+  failure: no retry/replacement; incomplete pairs excluded with counts
+  reference: finite-history stationary TE; truncation bound excludes roundoff

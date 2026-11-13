@@ -11,7 +11,7 @@ from torch import nn
 from torch.utils.data import DataLoader, TensorDataset
 
 from src.models.mlp import ConditionalMLP
-from src.utils.categorical import CategoricalBatch, CategoricalEncoder, VariableId
+from src.utils.categorical import CategoricalBatch, CategoricalEncoder, VariableId, validate_variable_order
 from src.utils.neural_config import NeuralConfig
 from src.utils.reproducibility import (
     capture_environment, derive_term_seed, make_shuffle_generator, reproducible_execution,
@@ -71,12 +71,16 @@ def train_conditional_term(
     train: CategoricalBatch, validation: CategoricalBatch, *,
     encoder: CategoricalEncoder, config: NeuralConfig,
     target: VariableId, conditioning: tuple[VariableId, ...],
+    context: tuple[VariableId, ...] = (),
 ) -> TermTrainingResult:
     """Fit one ordered conditional term using TRAIN and VALIDATION only.
 
-    The encoder must already be fitted. Conditioning must equal the nonempty
-    configured chain prefix before target; the unconditional first term is outside
-    this API. Identity checks reuse encoder validation, and overlap is rejected.
+    The encoder must already be fitted. Without context, conditioning must equal
+    the nonempty configured chain prefix (the original NJEE contract). With an
+    explicit nonempty context Y, it must equal Y followed by the X chain prefix;
+    the first X term is then supported. X and Y must be disjoint, known IDs.
+    Unused dataset columns are permitted with context. Identity checks reuse
+    encoder validation, and row overlap is rejected.
     A test argument, supplied model, resume checkpoint and encoder refit are absent.
 
     Adam uses only configured learning_rate with PyTorch's standard defaults,
@@ -100,16 +104,26 @@ def train_conditional_term(
         raise TypeError("encoder must be a fitted CategoricalEncoder.")
     if not hasattr(encoder, "_mappings"):
         raise ValueError("encoder must be fitted before training.")
-    config.validate_dataset(variable_ids=train.variable_ids, n_samples=train.n_samples)
+    if context != ():
+        validate_variable_order(context, context)
+    if context:
+        if set(context) & set(config.component_order):
+            raise ValueError("Context and target-variable group must be disjoint.")
+        if not set(context) <= set(train.variable_ids):
+            raise ValueError("Unknown context variable identifier.")
+        group = tuple(v for v in train.variable_ids if v in config.component_order)
+        config.validate_dataset(variable_ids=group, n_samples=train.n_samples)
+    else:
+        config.validate_dataset(variable_ids=train.variable_ids, n_samples=train.n_samples)
     if type(target) not in (str, int) or target not in config.component_order:
         raise ValueError(f"Unknown target variable {target!r}.")
     if not isinstance(conditioning, tuple) or any(type(v) not in (str, int) for v in conditioning):
         raise ValueError("conditioning must be a tuple of valid variable identifiers.")
     if target in conditioning:
         raise ValueError("Target must be excluded from its conditioning features.")
-    prefix = config.component_order[:config.component_order.index(target)]
+    prefix = context + config.component_order[:config.component_order.index(target)]
     if not prefix or conditioning != prefix:
-        raise ValueError("conditioning must equal the nonempty configured prefix before target.")
+        raise ValueError("conditioning must equal context plus the nonempty configured prefix before target.")
     if encoder.policy != config.alphabet_policy:
         raise ValueError("Encoder alphabet policy differs from neural configuration.")
     if np.intersect1d(train.row_indices, validation.row_indices).size:
