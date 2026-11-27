@@ -1,0 +1,511 @@
+cell_id,confidence_level,count,decision,epsilon_x,epsilon_y,family,lower,method,metric,n,n_evaluated,n_missing,n_planned,planned_rate_bounds,quantity,rate,upper,variant
+I001-bsc-ex000-ey000-n00250,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I001-bsc-ex000-ey000-n00250,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I001-bsc-ex000-ey000-n00250,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,neural
+I001-bsc-ex000-ey000-n00250,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I001-bsc-ex000-ey000-n00250,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I001-bsc-ex000-ey000-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.0,bsc,,Clopper-Pearson,false_positive_rate,250,0,0,0,,MI,,,
+I002-bsc-ex000-ey000-n00500,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I002-bsc-ex000-ey000-n00500,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I002-bsc-ex000-ey000-n00500,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,neural
+I002-bsc-ex000-ey000-n00500,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I002-bsc-ex000-ey000-n00500,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I002-bsc-ex000-ey000-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.0,bsc,,Clopper-Pearson,false_positive_rate,500,0,0,0,,MI,,,
+I003-bsc-ex000-ey000-n01000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I003-bsc-ex000-ey000-n01000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I003-bsc-ex000-ey000-n01000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I003-bsc-ex000-ey000-n01000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I003-bsc-ex000-ey000-n01000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I003-bsc-ex000-ey000-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.0,bsc,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,MI,,,
+I004-bsc-ex000-ey000-n05000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I004-bsc-ex000-ey000-n05000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I004-bsc-ex000-ey000-n05000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I004-bsc-ex000-ey000-n05000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I004-bsc-ex000-ey000-n05000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I004-bsc-ex000-ey000-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.0,bsc,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,MI,,,
+I005-bsc-ex000-ey000-n10000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I005-bsc-ex000-ey000-n10000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I005-bsc-ex000-ey000-n10000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I005-bsc-ex000-ey000-n10000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I005-bsc-ex000-ey000-n10000,0.95,0,,0.0,0.0,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I005-bsc-ex000-ey000-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.0,bsc,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,MI,,,
+I006-bsc-ex000-ey005-n00250,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I006-bsc-ex000-ey005-n00250,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I006-bsc-ex000-ey005-n00250,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,neural
+I006-bsc-ex000-ey005-n00250,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I006-bsc-ex000-ey005-n00250,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I006-bsc-ex000-ey005-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.05,bsc,,Clopper-Pearson,false_positive_rate,250,0,0,0,,MI,,,
+I007-bsc-ex000-ey005-n00500,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I007-bsc-ex000-ey005-n00500,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I007-bsc-ex000-ey005-n00500,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,neural
+I007-bsc-ex000-ey005-n00500,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I007-bsc-ex000-ey005-n00500,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I007-bsc-ex000-ey005-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.05,bsc,,Clopper-Pearson,false_positive_rate,500,0,0,0,,MI,,,
+I008-bsc-ex000-ey005-n01000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I008-bsc-ex000-ey005-n01000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I008-bsc-ex000-ey005-n01000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I008-bsc-ex000-ey005-n01000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I008-bsc-ex000-ey005-n01000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I008-bsc-ex000-ey005-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.05,bsc,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,MI,,,
+I009-bsc-ex000-ey005-n05000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I009-bsc-ex000-ey005-n05000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I009-bsc-ex000-ey005-n05000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I009-bsc-ex000-ey005-n05000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I009-bsc-ex000-ey005-n05000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I009-bsc-ex000-ey005-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.05,bsc,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,MI,,,
+I010-bsc-ex000-ey005-n10000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I010-bsc-ex000-ey005-n10000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I010-bsc-ex000-ey005-n10000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I010-bsc-ex000-ey005-n10000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I010-bsc-ex000-ey005-n10000,0.95,0,,0.0,0.05,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I010-bsc-ex000-ey005-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.05,bsc,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,MI,,,
+I011-bsc-ex000-ey015-n00250,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I011-bsc-ex000-ey015-n00250,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I011-bsc-ex000-ey015-n00250,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,neural
+I011-bsc-ex000-ey015-n00250,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I011-bsc-ex000-ey015-n00250,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I011-bsc-ex000-ey015-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.15,bsc,,Clopper-Pearson,false_positive_rate,250,0,0,0,,MI,,,
+I012-bsc-ex000-ey015-n00500,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I012-bsc-ex000-ey015-n00500,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I012-bsc-ex000-ey015-n00500,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,neural
+I012-bsc-ex000-ey015-n00500,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I012-bsc-ex000-ey015-n00500,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I012-bsc-ex000-ey015-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.15,bsc,,Clopper-Pearson,false_positive_rate,500,0,0,0,,MI,,,
+I013-bsc-ex000-ey015-n01000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I013-bsc-ex000-ey015-n01000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I013-bsc-ex000-ey015-n01000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I013-bsc-ex000-ey015-n01000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I013-bsc-ex000-ey015-n01000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I013-bsc-ex000-ey015-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.15,bsc,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,MI,,,
+I014-bsc-ex000-ey015-n05000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I014-bsc-ex000-ey015-n05000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I014-bsc-ex000-ey015-n05000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I014-bsc-ex000-ey015-n05000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I014-bsc-ex000-ey015-n05000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I014-bsc-ex000-ey015-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.15,bsc,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,MI,,,
+I015-bsc-ex000-ey015-n10000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I015-bsc-ex000-ey015-n10000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I015-bsc-ex000-ey015-n10000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I015-bsc-ex000-ey015-n10000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I015-bsc-ex000-ey015-n10000,0.95,0,,0.0,0.15,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I015-bsc-ex000-ey015-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.15,bsc,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,MI,,,
+I016-bsc-ex000-ey030-n00250,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I016-bsc-ex000-ey030-n00250,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I016-bsc-ex000-ey030-n00250,0.95,7,,0.0,0.3,bsc,0.05819170034037209,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.14,0.2673960024970084,neural
+I016-bsc-ex000-ey030-n00250,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I016-bsc-ex000-ey030-n00250,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I016-bsc-ex000-ey030-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.3,bsc,,Clopper-Pearson,false_positive_rate,250,0,0,0,,MI,,,
+I017-bsc-ex000-ey030-n00500,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I017-bsc-ex000-ey030-n00500,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I017-bsc-ex000-ey030-n00500,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,neural
+I017-bsc-ex000-ey030-n00500,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I017-bsc-ex000-ey030-n00500,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I017-bsc-ex000-ey030-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.3,bsc,,Clopper-Pearson,false_positive_rate,500,0,0,0,,MI,,,
+I018-bsc-ex000-ey030-n01000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I018-bsc-ex000-ey030-n01000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I018-bsc-ex000-ey030-n01000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I018-bsc-ex000-ey030-n01000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I018-bsc-ex000-ey030-n01000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I018-bsc-ex000-ey030-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.3,bsc,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,MI,,,
+I019-bsc-ex000-ey030-n05000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I019-bsc-ex000-ey030-n05000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I019-bsc-ex000-ey030-n05000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I019-bsc-ex000-ey030-n05000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I019-bsc-ex000-ey030-n05000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I019-bsc-ex000-ey030-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.3,bsc,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,MI,,,
+I020-bsc-ex000-ey030-n10000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_full
+I020-bsc-ex000-ey030-n10000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,miller_madow_train
+I020-bsc-ex000-ey030-n10000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,neural
+I020-bsc-ex000-ey030-n10000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I020-bsc-ex000-ey030-n10000,0.95,0,,0.0,0.3,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I020-bsc-ex000-ey030-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.0,0.3,bsc,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,MI,,,
+I021-bsc-ex000-ey050-n00250,0.95,31,,0.0,0.5,bsc,0.4717491630528553,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.62,0.7534989222001378,miller_madow_full
+I021-bsc-ex000-ey050-n00250,0.95,30,,0.0,0.5,bsc,0.45179402847918043,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.6,0.7359216049054632,miller_madow_train
+I021-bsc-ex000-ey050-n00250,0.95,35,,0.0,0.5,bsc,0.5539176743388218,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.7,0.821382154335853,neural
+I021-bsc-ex000-ey050-n00250,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I021-bsc-ex000-ey050-n00250,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I021-bsc-ex000-ey050-n00250,0.95,3,neural held-out permutation p<=0.05; not raw information>0,0.0,0.5,bsc,0.01254858783533406,Clopper-Pearson,false_positive_rate,250,50,0,50,"[0.06, 0.06]",MI,0.06,0.16548194660377288,
+I022-bsc-ex000-ey050-n00500,0.95,33,,0.0,0.5,bsc,0.5123475122784118,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.66,0.7879452865646183,miller_madow_full
+I022-bsc-ex000-ey050-n00500,0.95,28,,0.0,0.5,bsc,0.4125441229416732,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.56,0.7000927790724563,miller_madow_train
+I022-bsc-ex000-ey050-n00500,0.95,36,,0.0,0.5,bsc,0.5750946429838912,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.72,0.8376893992928247,neural
+I022-bsc-ex000-ey050-n00500,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I022-bsc-ex000-ey050-n00500,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I022-bsc-ex000-ey050-n00500,0.95,2,neural held-out permutation p<=0.05; not raw information>0,0.0,0.5,bsc,0.004881433426164382,Clopper-Pearson,false_positive_rate,500,50,0,50,"[0.04, 0.04]",MI,0.04,0.1371376256039674,
+I023-bsc-ex000-ey050-n01000,0.95,36,,0.0,0.5,bsc,0.5750946429838912,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.72,0.8376893992928247,miller_madow_full
+I023-bsc-ex000-ey050-n01000,0.95,40,,0.0,0.5,bsc,0.6628168916165122,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.8,0.899697762527429,miller_madow_train
+I023-bsc-ex000-ey050-n01000,0.95,38,,0.0,0.5,bsc,0.6183092518959619,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.76,0.8693900838025427,neural
+I023-bsc-ex000-ey050-n01000,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I023-bsc-ex000-ey050-n01000,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I023-bsc-ex000-ey050-n01000,0.95,2,neural held-out permutation p<=0.05; not raw information>0,0.0,0.5,bsc,0.004881433426164382,Clopper-Pearson,false_positive_rate,1000,50,0,50,"[0.04, 0.04]",MI,0.04,0.1371376256039674,
+I024-bsc-ex000-ey050-n05000,0.95,35,,0.0,0.5,bsc,0.5539176743388218,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.7,0.821382154335853,miller_madow_full
+I024-bsc-ex000-ey050-n05000,0.95,33,,0.0,0.5,bsc,0.5123475122784118,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.66,0.7879452865646183,miller_madow_train
+I024-bsc-ex000-ey050-n05000,0.95,37,,0.0,0.5,bsc,0.5965523212719342,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.74,0.8536994156034454,neural
+I024-bsc-ex000-ey050-n05000,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I024-bsc-ex000-ey050-n05000,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I024-bsc-ex000-ey050-n05000,0.95,1,neural held-out permutation p<=0.05; not raw information>0,0.0,0.5,bsc,0.000506227983040829,Clopper-Pearson,false_positive_rate,5000,50,0,50,"[0.02, 0.02]",MI,0.02,0.1064695457114999,
+I025-bsc-ex000-ey050-n10000,0.95,32,,0.0,0.5,bsc,0.4919313522856012,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.64,0.7708429331794127,miller_madow_full
+I025-bsc-ex000-ey050-n10000,0.95,34,,0.0,0.5,bsc,0.5330061598852693,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.68,0.8047958053371607,miller_madow_train
+I025-bsc-ex000-ey050-n10000,0.95,39,,0.0,0.5,bsc,0.6403881114342107,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.78,0.8847341739621514,neural
+I025-bsc-ex000-ey050-n10000,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_full
+I025-bsc-ex000-ey050-n10000,0.95,0,,0.0,0.5,bsc,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,MI,0.0,0.07112173646419764,plug_in_train
+I025-bsc-ex000-ey050-n10000,0.95,4,neural held-out permutation p<=0.05; not raw information>0,0.0,0.5,bsc,0.02222796365492976,Clopper-Pearson,false_positive_rate,10000,50,0,50,"[0.08, 0.08]",MI,0.08,0.19234278359596277,
+I026-chain-ex015-ey000-n00250,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I026-chain-ex015-ey000-n00250,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I026-chain-ex015-ey000-n00250,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I026-chain-ex015-ey000-n00250,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I026-chain-ex015-ey000-n00250,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I026-chain-ex015-ey000-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.0,chain,,Clopper-Pearson,false_positive_rate,250,0,0,0,,CMI,,,
+I027-chain-ex015-ey000-n00500,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I027-chain-ex015-ey000-n00500,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I027-chain-ex015-ey000-n00500,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I027-chain-ex015-ey000-n00500,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I027-chain-ex015-ey000-n00500,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I027-chain-ex015-ey000-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.0,chain,,Clopper-Pearson,false_positive_rate,500,0,0,0,,CMI,,,
+I028-chain-ex015-ey000-n01000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I028-chain-ex015-ey000-n01000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I028-chain-ex015-ey000-n01000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I028-chain-ex015-ey000-n01000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I028-chain-ex015-ey000-n01000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I028-chain-ex015-ey000-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.0,chain,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,CMI,,,
+I029-chain-ex015-ey000-n05000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I029-chain-ex015-ey000-n05000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I029-chain-ex015-ey000-n05000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I029-chain-ex015-ey000-n05000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I029-chain-ex015-ey000-n05000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I029-chain-ex015-ey000-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.0,chain,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,CMI,,,
+I030-chain-ex015-ey000-n10000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I030-chain-ex015-ey000-n10000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I030-chain-ex015-ey000-n10000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I030-chain-ex015-ey000-n10000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I030-chain-ex015-ey000-n10000,0.95,0,,0.15,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I030-chain-ex015-ey000-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.0,chain,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,CMI,,,
+I031-chain-ex015-ey005-n00250,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I031-chain-ex015-ey005-n00250,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I031-chain-ex015-ey005-n00250,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I031-chain-ex015-ey005-n00250,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I031-chain-ex015-ey005-n00250,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I031-chain-ex015-ey005-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.05,chain,,Clopper-Pearson,false_positive_rate,250,0,0,0,,CMI,,,
+I032-chain-ex015-ey005-n00500,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I032-chain-ex015-ey005-n00500,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I032-chain-ex015-ey005-n00500,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I032-chain-ex015-ey005-n00500,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I032-chain-ex015-ey005-n00500,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I032-chain-ex015-ey005-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.05,chain,,Clopper-Pearson,false_positive_rate,500,0,0,0,,CMI,,,
+I033-chain-ex015-ey005-n01000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I033-chain-ex015-ey005-n01000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I033-chain-ex015-ey005-n01000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I033-chain-ex015-ey005-n01000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I033-chain-ex015-ey005-n01000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I033-chain-ex015-ey005-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.05,chain,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,CMI,,,
+I034-chain-ex015-ey005-n05000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I034-chain-ex015-ey005-n05000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I034-chain-ex015-ey005-n05000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I034-chain-ex015-ey005-n05000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I034-chain-ex015-ey005-n05000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I034-chain-ex015-ey005-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.05,chain,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,CMI,,,
+I035-chain-ex015-ey005-n10000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I035-chain-ex015-ey005-n10000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I035-chain-ex015-ey005-n10000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I035-chain-ex015-ey005-n10000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I035-chain-ex015-ey005-n10000,0.95,0,,0.15,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I035-chain-ex015-ey005-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.05,chain,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,CMI,,,
+I036-chain-ex015-ey015-n00250,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I036-chain-ex015-ey015-n00250,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I036-chain-ex015-ey015-n00250,0.95,2,,0.15,0.15,chain,0.004881433426164382,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.04,0.1371376256039674,neural
+I036-chain-ex015-ey015-n00250,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I036-chain-ex015-ey015-n00250,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I036-chain-ex015-ey015-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,chain,,Clopper-Pearson,false_positive_rate,250,0,0,0,,CMI,,,
+I037-chain-ex015-ey015-n00500,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I037-chain-ex015-ey015-n00500,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I037-chain-ex015-ey015-n00500,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I037-chain-ex015-ey015-n00500,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I037-chain-ex015-ey015-n00500,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I037-chain-ex015-ey015-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,chain,,Clopper-Pearson,false_positive_rate,500,0,0,0,,CMI,,,
+I038-chain-ex015-ey015-n01000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I038-chain-ex015-ey015-n01000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I038-chain-ex015-ey015-n01000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I038-chain-ex015-ey015-n01000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I038-chain-ex015-ey015-n01000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I038-chain-ex015-ey015-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,chain,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,CMI,,,
+I039-chain-ex015-ey015-n05000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I039-chain-ex015-ey015-n05000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I039-chain-ex015-ey015-n05000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I039-chain-ex015-ey015-n05000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I039-chain-ex015-ey015-n05000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I039-chain-ex015-ey015-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,chain,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,CMI,,,
+I040-chain-ex015-ey015-n10000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I040-chain-ex015-ey015-n10000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I040-chain-ex015-ey015-n10000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I040-chain-ex015-ey015-n10000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I040-chain-ex015-ey015-n10000,0.95,0,,0.15,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I040-chain-ex015-ey015-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,chain,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,CMI,,,
+I041-chain-ex015-ey030-n00250,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I041-chain-ex015-ey030-n00250,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I041-chain-ex015-ey030-n00250,0.95,8,,0.15,0.3,chain,0.07170076718328619,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.16,0.2911263065951108,neural
+I041-chain-ex015-ey030-n00250,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I041-chain-ex015-ey030-n00250,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I041-chain-ex015-ey030-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.3,chain,,Clopper-Pearson,false_positive_rate,250,0,0,0,,CMI,,,
+I042-chain-ex015-ey030-n00500,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I042-chain-ex015-ey030-n00500,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I042-chain-ex015-ey030-n00500,0.95,4,,0.15,0.3,chain,0.02222796365492976,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.08,0.19234278359596277,neural
+I042-chain-ex015-ey030-n00500,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I042-chain-ex015-ey030-n00500,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I042-chain-ex015-ey030-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.3,chain,,Clopper-Pearson,false_positive_rate,500,0,0,0,,CMI,,,
+I043-chain-ex015-ey030-n01000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I043-chain-ex015-ey030-n01000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I043-chain-ex015-ey030-n01000,0.95,2,,0.15,0.3,chain,0.004881433426164382,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.04,0.1371376256039674,neural
+I043-chain-ex015-ey030-n01000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I043-chain-ex015-ey030-n01000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I043-chain-ex015-ey030-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.3,chain,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,CMI,,,
+I044-chain-ex015-ey030-n05000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I044-chain-ex015-ey030-n05000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I044-chain-ex015-ey030-n05000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I044-chain-ex015-ey030-n05000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I044-chain-ex015-ey030-n05000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I044-chain-ex015-ey030-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.3,chain,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,CMI,,,
+I045-chain-ex015-ey030-n10000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I045-chain-ex015-ey030-n10000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I045-chain-ex015-ey030-n10000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I045-chain-ex015-ey030-n10000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I045-chain-ex015-ey030-n10000,0.95,0,,0.15,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I045-chain-ex015-ey030-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.3,chain,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,CMI,,,
+I046-chain-ex015-ey050-n00250,0.95,28,,0.15,0.5,chain,0.4125441229416732,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.56,0.7000927790724563,miller_madow_full
+I046-chain-ex015-ey050-n00250,0.95,26,,0.15,0.5,chain,0.3741519450790943,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.52,0.66339490839654,miller_madow_train
+I046-chain-ex015-ey050-n00250,0.95,27,,0.15,0.5,chain,0.3932419761169223,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.54,0.6818508214313913,neural
+I046-chain-ex015-ey050-n00250,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I046-chain-ex015-ey050-n00250,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I046-chain-ex015-ey050-n00250,0.95,3,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,chain,0.01254858783533406,Clopper-Pearson,false_positive_rate,250,50,0,50,"[0.06, 0.06]",CMI,0.06,0.16548194660377288,
+I047-chain-ex015-ey050-n00500,0.95,38,,0.15,0.5,chain,0.6183092518959619,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.76,0.8693900838025427,miller_madow_full
+I047-chain-ex015-ey050-n00500,0.95,30,,0.15,0.5,chain,0.45179402847918043,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.6,0.7359216049054632,miller_madow_train
+I047-chain-ex015-ey050-n00500,0.95,34,,0.15,0.5,chain,0.5330061598852693,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.68,0.8047958053371607,neural
+I047-chain-ex015-ey050-n00500,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I047-chain-ex015-ey050-n00500,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I047-chain-ex015-ey050-n00500,0.95,4,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,chain,0.02222796365492976,Clopper-Pearson,false_positive_rate,500,50,0,50,"[0.08, 0.08]",CMI,0.08,0.19234278359596277,
+I048-chain-ex015-ey050-n01000,0.95,35,,0.15,0.5,chain,0.5539176743388218,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.7,0.821382154335853,miller_madow_full
+I048-chain-ex015-ey050-n01000,0.95,38,,0.15,0.5,chain,0.6183092518959619,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.76,0.8693900838025427,miller_madow_train
+I048-chain-ex015-ey050-n01000,0.95,31,,0.15,0.5,chain,0.4717491630528553,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.62,0.7534989222001378,neural
+I048-chain-ex015-ey050-n01000,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I048-chain-ex015-ey050-n01000,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I048-chain-ex015-ey050-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,chain,0.0,Clopper-Pearson,false_positive_rate,1000,50,0,50,"[0.0, 0.0]",CMI,0.0,0.07112173646419764,
+I049-chain-ex015-ey050-n05000,0.95,32,,0.15,0.5,chain,0.4919313522856012,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.64,0.7708429331794127,miller_madow_full
+I049-chain-ex015-ey050-n05000,0.95,33,,0.15,0.5,chain,0.5123475122784118,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.66,0.7879452865646183,miller_madow_train
+I049-chain-ex015-ey050-n05000,0.95,23,,0.15,0.5,chain,0.31814917856860864,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.46,0.6067580238830776,neural
+I049-chain-ex015-ey050-n05000,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I049-chain-ex015-ey050-n05000,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I049-chain-ex015-ey050-n05000,0.95,5,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,chain,0.03327509358902247,Clopper-Pearson,false_positive_rate,5000,50,0,50,"[0.1, 0.1]",CMI,0.1,0.21813536643420225,
+I050-chain-ex015-ey050-n10000,0.95,29,,0.15,0.5,chain,0.4320604350655657,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.58,0.7181177588763025,miller_madow_full
+I050-chain-ex015-ey050-n10000,0.95,33,,0.15,0.5,chain,0.5123475122784118,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.66,0.7879452865646183,miller_madow_train
+I050-chain-ex015-ey050-n10000,0.95,39,,0.15,0.5,chain,0.6403881114342107,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.78,0.8847341739621514,neural
+I050-chain-ex015-ey050-n10000,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I050-chain-ex015-ey050-n10000,0.95,0,,0.15,0.5,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I050-chain-ex015-ey050-n10000,0.95,2,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,chain,0.004881433426164382,Clopper-Pearson,false_positive_rate,10000,50,0,50,"[0.04, 0.04]",CMI,0.04,0.1371376256039674,
+I051-chain-ex050-ey000-n00250,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I051-chain-ex050-ey000-n00250,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I051-chain-ex050-ey000-n00250,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I051-chain-ex050-ey000-n00250,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I051-chain-ex050-ey000-n00250,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I051-chain-ex050-ey000-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.0,chain,,Clopper-Pearson,false_positive_rate,250,0,0,0,,CMI,,,
+I052-chain-ex050-ey000-n00500,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I052-chain-ex050-ey000-n00500,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I052-chain-ex050-ey000-n00500,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I052-chain-ex050-ey000-n00500,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I052-chain-ex050-ey000-n00500,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I052-chain-ex050-ey000-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.0,chain,,Clopper-Pearson,false_positive_rate,500,0,0,0,,CMI,,,
+I053-chain-ex050-ey000-n01000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I053-chain-ex050-ey000-n01000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I053-chain-ex050-ey000-n01000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I053-chain-ex050-ey000-n01000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I053-chain-ex050-ey000-n01000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I053-chain-ex050-ey000-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.0,chain,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,CMI,,,
+I054-chain-ex050-ey000-n05000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I054-chain-ex050-ey000-n05000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I054-chain-ex050-ey000-n05000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I054-chain-ex050-ey000-n05000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I054-chain-ex050-ey000-n05000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I054-chain-ex050-ey000-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.0,chain,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,CMI,,,
+I055-chain-ex050-ey000-n10000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I055-chain-ex050-ey000-n10000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I055-chain-ex050-ey000-n10000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I055-chain-ex050-ey000-n10000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I055-chain-ex050-ey000-n10000,0.95,0,,0.5,0.0,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I055-chain-ex050-ey000-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.0,chain,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,CMI,,,
+I056-chain-ex050-ey005-n00250,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I056-chain-ex050-ey005-n00250,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I056-chain-ex050-ey005-n00250,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I056-chain-ex050-ey005-n00250,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I056-chain-ex050-ey005-n00250,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I056-chain-ex050-ey005-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.05,chain,,Clopper-Pearson,false_positive_rate,250,0,0,0,,CMI,,,
+I057-chain-ex050-ey005-n00500,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I057-chain-ex050-ey005-n00500,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I057-chain-ex050-ey005-n00500,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I057-chain-ex050-ey005-n00500,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I057-chain-ex050-ey005-n00500,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I057-chain-ex050-ey005-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.05,chain,,Clopper-Pearson,false_positive_rate,500,0,0,0,,CMI,,,
+I058-chain-ex050-ey005-n01000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I058-chain-ex050-ey005-n01000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I058-chain-ex050-ey005-n01000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I058-chain-ex050-ey005-n01000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I058-chain-ex050-ey005-n01000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I058-chain-ex050-ey005-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.05,chain,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,CMI,,,
+I059-chain-ex050-ey005-n05000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I059-chain-ex050-ey005-n05000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I059-chain-ex050-ey005-n05000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I059-chain-ex050-ey005-n05000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I059-chain-ex050-ey005-n05000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I059-chain-ex050-ey005-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.05,chain,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,CMI,,,
+I060-chain-ex050-ey005-n10000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I060-chain-ex050-ey005-n10000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I060-chain-ex050-ey005-n10000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I060-chain-ex050-ey005-n10000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I060-chain-ex050-ey005-n10000,0.95,0,,0.5,0.05,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I060-chain-ex050-ey005-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.05,chain,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,CMI,,,
+I061-chain-ex050-ey015-n00250,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I061-chain-ex050-ey015-n00250,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I061-chain-ex050-ey015-n00250,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I061-chain-ex050-ey015-n00250,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I061-chain-ex050-ey015-n00250,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I061-chain-ex050-ey015-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.15,chain,,Clopper-Pearson,false_positive_rate,250,0,0,0,,CMI,,,
+I062-chain-ex050-ey015-n00500,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I062-chain-ex050-ey015-n00500,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I062-chain-ex050-ey015-n00500,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I062-chain-ex050-ey015-n00500,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I062-chain-ex050-ey015-n00500,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I062-chain-ex050-ey015-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.15,chain,,Clopper-Pearson,false_positive_rate,500,0,0,0,,CMI,,,
+I063-chain-ex050-ey015-n01000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I063-chain-ex050-ey015-n01000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I063-chain-ex050-ey015-n01000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I063-chain-ex050-ey015-n01000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I063-chain-ex050-ey015-n01000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I063-chain-ex050-ey015-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.15,chain,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,CMI,,,
+I064-chain-ex050-ey015-n05000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I064-chain-ex050-ey015-n05000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I064-chain-ex050-ey015-n05000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I064-chain-ex050-ey015-n05000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I064-chain-ex050-ey015-n05000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I064-chain-ex050-ey015-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.15,chain,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,CMI,,,
+I065-chain-ex050-ey015-n10000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I065-chain-ex050-ey015-n10000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I065-chain-ex050-ey015-n10000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I065-chain-ex050-ey015-n10000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I065-chain-ex050-ey015-n10000,0.95,0,,0.5,0.15,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I065-chain-ex050-ey015-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.15,chain,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,CMI,,,
+I066-chain-ex050-ey030-n00250,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I066-chain-ex050-ey030-n00250,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I066-chain-ex050-ey030-n00250,0.95,5,,0.5,0.3,chain,0.03327509358902247,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.1,0.21813536643420225,neural
+I066-chain-ex050-ey030-n00250,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I066-chain-ex050-ey030-n00250,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I066-chain-ex050-ey030-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.3,chain,,Clopper-Pearson,false_positive_rate,250,0,0,0,,CMI,,,
+I067-chain-ex050-ey030-n00500,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I067-chain-ex050-ey030-n00500,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I067-chain-ex050-ey030-n00500,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I067-chain-ex050-ey030-n00500,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I067-chain-ex050-ey030-n00500,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I067-chain-ex050-ey030-n00500,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.3,chain,,Clopper-Pearson,false_positive_rate,500,0,0,0,,CMI,,,
+I068-chain-ex050-ey030-n01000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I068-chain-ex050-ey030-n01000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I068-chain-ex050-ey030-n01000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I068-chain-ex050-ey030-n01000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I068-chain-ex050-ey030-n01000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I068-chain-ex050-ey030-n01000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.3,chain,,Clopper-Pearson,false_positive_rate,1000,0,0,0,,CMI,,,
+I069-chain-ex050-ey030-n05000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I069-chain-ex050-ey030-n05000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I069-chain-ex050-ey030-n05000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I069-chain-ex050-ey030-n05000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I069-chain-ex050-ey030-n05000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I069-chain-ex050-ey030-n05000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.3,chain,,Clopper-Pearson,false_positive_rate,5000,0,0,0,,CMI,,,
+I070-chain-ex050-ey030-n10000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_full
+I070-chain-ex050-ey030-n10000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,miller_madow_train
+I070-chain-ex050-ey030-n10000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,neural
+I070-chain-ex050-ey030-n10000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I070-chain-ex050-ey030-n10000,0.95,0,,0.5,0.3,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I070-chain-ex050-ey030-n10000,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.5,0.3,chain,,Clopper-Pearson,false_positive_rate,10000,0,0,0,,CMI,,,
+I071-chain-ex050-ey050-n00250,0.95,32,,0.5,0.5,chain,0.4919313522856012,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.64,0.7708429331794127,miller_madow_full
+I071-chain-ex050-ey050-n00250,0.95,30,,0.5,0.5,chain,0.45179402847918043,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.6,0.7359216049054632,miller_madow_train
+I071-chain-ex050-ey050-n00250,0.95,24,,0.5,0.5,chain,0.3366050916034599,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.48,0.6258480549209058,neural
+I071-chain-ex050-ey050-n00250,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I071-chain-ex050-ey050-n00250,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I071-chain-ex050-ey050-n00250,0.95,1,neural held-out permutation p<=0.05; not raw information>0,0.5,0.5,chain,0.000506227983040829,Clopper-Pearson,false_positive_rate,250,50,0,50,"[0.02, 0.02]",CMI,0.02,0.1064695457114999,
+I072-chain-ex050-ey050-n00500,0.95,35,,0.5,0.5,chain,0.5539176743388218,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.7,0.821382154335853,miller_madow_full
+I072-chain-ex050-ey050-n00500,0.95,31,,0.5,0.5,chain,0.4717491630528553,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.62,0.7534989222001378,miller_madow_train
+I072-chain-ex050-ey050-n00500,0.95,27,,0.5,0.5,chain,0.3932419761169223,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.54,0.6818508214313913,neural
+I072-chain-ex050-ey050-n00500,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I072-chain-ex050-ey050-n00500,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I072-chain-ex050-ey050-n00500,0.95,3,neural held-out permutation p<=0.05; not raw information>0,0.5,0.5,chain,0.01254858783533406,Clopper-Pearson,false_positive_rate,500,50,0,50,"[0.06, 0.06]",CMI,0.06,0.16548194660377288,
+I073-chain-ex050-ey050-n01000,0.95,31,,0.5,0.5,chain,0.4717491630528553,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.62,0.7534989222001378,miller_madow_full
+I073-chain-ex050-ey050-n01000,0.95,31,,0.5,0.5,chain,0.4717491630528553,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.62,0.7534989222001378,miller_madow_train
+I073-chain-ex050-ey050-n01000,0.95,25,,0.5,0.5,chain,0.3552729971299086,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.5,0.6447270028700913,neural
+I073-chain-ex050-ey050-n01000,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I073-chain-ex050-ey050-n01000,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I073-chain-ex050-ey050-n01000,0.95,6,neural held-out permutation p<=0.05; not raw information>0,0.5,0.5,chain,0.04533532077366385,Clopper-Pearson,false_positive_rate,1000,50,0,50,"[0.12, 0.12]",CMI,0.12,0.24310131670556254,
+I074-chain-ex050-ey050-n05000,0.95,29,,0.5,0.5,chain,0.4320604350655657,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.58,0.7181177588763025,miller_madow_full
+I074-chain-ex050-ey050-n05000,0.95,31,,0.5,0.5,chain,0.4717491630528553,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.62,0.7534989222001378,miller_madow_train
+I074-chain-ex050-ey050-n05000,0.95,28,,0.5,0.5,chain,0.4125441229416732,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.56,0.7000927790724563,neural
+I074-chain-ex050-ey050-n05000,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I074-chain-ex050-ey050-n05000,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I074-chain-ex050-ey050-n05000,0.95,4,neural held-out permutation p<=0.05; not raw information>0,0.5,0.5,chain,0.02222796365492976,Clopper-Pearson,false_positive_rate,5000,50,0,50,"[0.08, 0.08]",CMI,0.08,0.19234278359596277,
+I075-chain-ex050-ey050-n10000,0.95,30,,0.5,0.5,chain,0.45179402847918043,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.6,0.7359216049054632,miller_madow_full
+I075-chain-ex050-ey050-n10000,0.95,30,,0.5,0.5,chain,0.45179402847918043,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.6,0.7359216049054632,miller_madow_train
+I075-chain-ex050-ey050-n10000,0.95,28,,0.5,0.5,chain,0.4125441229416732,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.56,0.7000927790724563,neural
+I075-chain-ex050-ey050-n10000,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I075-chain-ex050-ey050-n10000,0.95,0,,0.5,0.5,chain,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I075-chain-ex050-ey050-n10000,0.95,1,neural held-out permutation p<=0.05; not raw information>0,0.5,0.5,chain,0.000506227983040829,Clopper-Pearson,false_positive_rate,10000,50,0,50,"[0.02, 0.02]",CMI,0.02,0.1064695457114999,
+I076-fork-ex015-ey015-n00250,0.95,34,,0.15,0.15,fork,0.5330061598852693,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.68,0.8047958053371607,miller_madow_full
+I076-fork-ex015-ey015-n00250,0.95,24,,0.15,0.15,fork,0.3366050916034599,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.48,0.6258480549209058,miller_madow_train
+I076-fork-ex015-ey015-n00250,0.95,38,,0.15,0.15,fork,0.6183092518959619,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.76,0.8693900838025427,neural
+I076-fork-ex015-ey015-n00250,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I076-fork-ex015-ey015-n00250,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I076-fork-ex015-ey015-n00250,0.95,0,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,fork,0.0,Clopper-Pearson,false_positive_rate,250,50,0,50,"[0.0, 0.0]",CMI,0.0,0.07112173646419764,
+I077-fork-ex015-ey015-n00500,0.95,31,,0.15,0.15,fork,0.4717491630528553,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.62,0.7534989222001378,miller_madow_full
+I077-fork-ex015-ey015-n00500,0.95,31,,0.15,0.15,fork,0.4717491630528553,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.62,0.7534989222001378,miller_madow_train
+I077-fork-ex015-ey015-n00500,0.95,24,,0.15,0.15,fork,0.3366050916034599,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.48,0.6258480549209058,neural
+I077-fork-ex015-ey015-n00500,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I077-fork-ex015-ey015-n00500,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I077-fork-ex015-ey015-n00500,0.95,6,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,fork,0.04533532077366385,Clopper-Pearson,false_positive_rate,500,50,0,50,"[0.12, 0.12]",CMI,0.12,0.24310131670556254,
+I078-fork-ex015-ey015-n01000,0.95,34,,0.15,0.15,fork,0.5330061598852693,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.68,0.8047958053371607,miller_madow_full
+I078-fork-ex015-ey015-n01000,0.95,35,,0.15,0.15,fork,0.5539176743388218,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.7,0.821382154335853,miller_madow_train
+I078-fork-ex015-ey015-n01000,0.95,32,,0.15,0.15,fork,0.4919313522856012,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.64,0.7708429331794127,neural
+I078-fork-ex015-ey015-n01000,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I078-fork-ex015-ey015-n01000,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I078-fork-ex015-ey015-n01000,0.95,2,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,fork,0.004881433426164382,Clopper-Pearson,false_positive_rate,1000,50,0,50,"[0.04, 0.04]",CMI,0.04,0.1371376256039674,
+I079-fork-ex015-ey015-n05000,0.95,27,,0.15,0.15,fork,0.3932419761169223,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.54,0.6818508214313913,miller_madow_full
+I079-fork-ex015-ey015-n05000,0.95,28,,0.15,0.15,fork,0.4125441229416732,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.56,0.7000927790724563,miller_madow_train
+I079-fork-ex015-ey015-n05000,0.95,33,,0.15,0.15,fork,0.5123475122784118,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.66,0.7879452865646183,neural
+I079-fork-ex015-ey015-n05000,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I079-fork-ex015-ey015-n05000,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I079-fork-ex015-ey015-n05000,0.95,2,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,fork,0.004881433426164382,Clopper-Pearson,false_positive_rate,5000,50,0,50,"[0.04, 0.04]",CMI,0.04,0.1371376256039674,
+I080-fork-ex015-ey015-n10000,0.95,28,,0.15,0.15,fork,0.4125441229416732,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.56,0.7000927790724563,miller_madow_full
+I080-fork-ex015-ey015-n10000,0.95,31,,0.15,0.15,fork,0.4717491630528553,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.62,0.7534989222001378,miller_madow_train
+I080-fork-ex015-ey015-n10000,0.95,34,,0.15,0.15,fork,0.5330061598852693,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.68,0.8047958053371607,neural
+I080-fork-ex015-ey015-n10000,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I080-fork-ex015-ey015-n10000,0.95,0,,0.15,0.15,fork,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I080-fork-ex015-ey015-n10000,0.95,4,neural held-out permutation p<=0.05; not raw information>0,0.15,0.15,fork,0.02222796365492976,Clopper-Pearson,false_positive_rate,10000,50,0,50,"[0.08, 0.08]",CMI,0.08,0.19234278359596277,
+I081-fork-ex015-ey050-n00250,0.95,25,,0.15,0.5,fork,0.3552729971299086,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.5,0.6447270028700913,miller_madow_full
+I081-fork-ex015-ey050-n00250,0.95,32,,0.15,0.5,fork,0.4919313522856012,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.64,0.7708429331794127,miller_madow_train
+I081-fork-ex015-ey050-n00250,0.95,33,,0.15,0.5,fork,0.5123475122784118,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.66,0.7879452865646183,neural
+I081-fork-ex015-ey050-n00250,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I081-fork-ex015-ey050-n00250,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,250,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I081-fork-ex015-ey050-n00250,0.95,2,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,fork,0.004881433426164382,Clopper-Pearson,false_positive_rate,250,50,0,50,"[0.04, 0.04]",CMI,0.04,0.1371376256039674,
+I082-fork-ex015-ey050-n00500,0.95,32,,0.15,0.5,fork,0.4919313522856012,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.64,0.7708429331794127,miller_madow_full
+I082-fork-ex015-ey050-n00500,0.95,33,,0.15,0.5,fork,0.5123475122784118,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.66,0.7879452865646183,miller_madow_train
+I082-fork-ex015-ey050-n00500,0.95,25,,0.15,0.5,fork,0.3552729971299086,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.5,0.6447270028700913,neural
+I082-fork-ex015-ey050-n00500,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I082-fork-ex015-ey050-n00500,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,500,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I082-fork-ex015-ey050-n00500,0.95,4,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,fork,0.02222796365492976,Clopper-Pearson,false_positive_rate,500,50,0,50,"[0.08, 0.08]",CMI,0.08,0.19234278359596277,
+I083-fork-ex015-ey050-n01000,0.95,36,,0.15,0.5,fork,0.5750946429838912,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.72,0.8376893992928247,miller_madow_full
+I083-fork-ex015-ey050-n01000,0.95,38,,0.15,0.5,fork,0.6183092518959619,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.76,0.8693900838025427,miller_madow_train
+I083-fork-ex015-ey050-n01000,0.95,29,,0.15,0.5,fork,0.4320604350655657,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.58,0.7181177588763025,neural
+I083-fork-ex015-ey050-n01000,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I083-fork-ex015-ey050-n01000,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,1000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I083-fork-ex015-ey050-n01000,0.95,2,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,fork,0.004881433426164382,Clopper-Pearson,false_positive_rate,1000,50,0,50,"[0.04, 0.04]",CMI,0.04,0.1371376256039674,
+I084-fork-ex015-ey050-n05000,0.95,30,,0.15,0.5,fork,0.45179402847918043,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.6,0.7359216049054632,miller_madow_full
+I084-fork-ex015-ey050-n05000,0.95,34,,0.15,0.5,fork,0.5330061598852693,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.68,0.8047958053371607,miller_madow_train
+I084-fork-ex015-ey050-n05000,0.95,30,,0.15,0.5,fork,0.45179402847918043,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.6,0.7359216049054632,neural
+I084-fork-ex015-ey050-n05000,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I084-fork-ex015-ey050-n05000,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,5000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I084-fork-ex015-ey050-n05000,0.95,1,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,fork,0.000506227983040829,Clopper-Pearson,false_positive_rate,5000,50,0,50,"[0.02, 0.02]",CMI,0.02,0.1064695457114999,
+I085-fork-ex015-ey050-n10000,0.95,35,,0.15,0.5,fork,0.5539176743388218,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.7,0.821382154335853,miller_madow_full
+I085-fork-ex015-ey050-n10000,0.95,32,,0.15,0.5,fork,0.4919313522856012,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.64,0.7708429331794127,miller_madow_train
+I085-fork-ex015-ey050-n10000,0.95,30,,0.15,0.5,fork,0.45179402847918043,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.6,0.7359216049054632,neural
+I085-fork-ex015-ey050-n10000,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_full
+I085-fork-ex015-ey050-n10000,0.95,0,,0.15,0.5,fork,0.0,Clopper-Pearson,negative_frequency,10000,50,0,50,,CMI,0.0,0.07112173646419764,plug_in_train
+I085-fork-ex015-ey050-n10000,0.95,2,neural held-out permutation p<=0.05; not raw information>0,0.15,0.5,fork,0.004881433426164382,Clopper-Pearson,false_positive_rate,10000,50,0,50,"[0.04, 0.04]",CMI,0.04,0.1371376256039674,

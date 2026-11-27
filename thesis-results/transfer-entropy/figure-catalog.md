@@ -1,0 +1,1037 @@
+# Catalogo delle figure · Transfer Entropy
+
+977 figure. I nomi corrispondono ai file PNG e SVG del pacchetto scaricabile.
+
+## TE nelle due direzioni rispetto a numerosità
+
+- `directional-te-n--coupling-0-0--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-0--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-0--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-0--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-0--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-0--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-1--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-3--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-5--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `directional-te-n--coupling-0-8--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+
+## Differenza di TE tra direzioni rispetto a numerosità
+
+- `direction-difference-n--coupling-0-0--delay-1` · accoppiamento = 0.0, ritardo fisico = 1 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-1--delay-1` · accoppiamento = 0.1, ritardo fisico = 1 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-1--delay-2` · accoppiamento = 0.1, ritardo fisico = 2 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-1--delay-3` · accoppiamento = 0.1, ritardo fisico = 3 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-1--delay-5` · accoppiamento = 0.1, ritardo fisico = 5 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-3--delay-1` · accoppiamento = 0.3, ritardo fisico = 1 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-3--delay-2` · accoppiamento = 0.3, ritardo fisico = 2 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-3--delay-3` · accoppiamento = 0.3, ritardo fisico = 3 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-3--delay-5` · accoppiamento = 0.3, ritardo fisico = 5 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-5--delay-1` · accoppiamento = 0.5, ritardo fisico = 1 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-5--delay-2` · accoppiamento = 0.5, ritardo fisico = 2 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-5--delay-3` · accoppiamento = 0.5, ritardo fisico = 3 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-5--delay-5` · accoppiamento = 0.5, ritardo fisico = 5 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-8--delay-1` · accoppiamento = 0.8, ritardo fisico = 1 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-8--delay-2` · accoppiamento = 0.8, ritardo fisico = 2 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-8--delay-3` · accoppiamento = 0.8, ritardo fisico = 3 · origine `tables/paired_comparisons.csv`
+- `direction-difference-n--coupling-0-8--delay-5` · accoppiamento = 0.8, ritardo fisico = 5 · origine `tables/paired_comparisons.csv`
+
+## Accuratezza della direzione rispetto a numerosità
+
+- `direction-correct-n--coupling-0-1--delay-1` · accoppiamento = 0.1, ritardo fisico = 1 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-1--delay-2` · accoppiamento = 0.1, ritardo fisico = 2 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-1--delay-3` · accoppiamento = 0.1, ritardo fisico = 3 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-1--delay-5` · accoppiamento = 0.1, ritardo fisico = 5 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-3--delay-1` · accoppiamento = 0.3, ritardo fisico = 1 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-3--delay-2` · accoppiamento = 0.3, ritardo fisico = 2 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-3--delay-3` · accoppiamento = 0.3, ritardo fisico = 3 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-3--delay-5` · accoppiamento = 0.3, ritardo fisico = 5 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-5--delay-1` · accoppiamento = 0.5, ritardo fisico = 1 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-5--delay-2` · accoppiamento = 0.5, ritardo fisico = 2 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-5--delay-3` · accoppiamento = 0.5, ritardo fisico = 3 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-5--delay-5` · accoppiamento = 0.5, ritardo fisico = 5 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-8--delay-1` · accoppiamento = 0.8, ritardo fisico = 1 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-8--delay-2` · accoppiamento = 0.8, ritardo fisico = 2 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-8--delay-3` · accoppiamento = 0.8, ritardo fisico = 3 · origine `tables/accuracy.csv`
+- `direction-correct-n--coupling-0-8--delay-5` · accoppiamento = 0.8, ritardo fisico = 5 · origine `tables/accuracy.csv`
+
+## Accuratezza del ritardo selezionato rispetto a numerosità
+
+- `lag-correct-n--coupling-0-1--delay-1` · accoppiamento = 0.1, ritardo fisico = 1 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-1--delay-2` · accoppiamento = 0.1, ritardo fisico = 2 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-1--delay-3` · accoppiamento = 0.1, ritardo fisico = 3 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-1--delay-5` · accoppiamento = 0.1, ritardo fisico = 5 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-3--delay-1` · accoppiamento = 0.3, ritardo fisico = 1 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-3--delay-2` · accoppiamento = 0.3, ritardo fisico = 2 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-3--delay-3` · accoppiamento = 0.3, ritardo fisico = 3 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-3--delay-5` · accoppiamento = 0.3, ritardo fisico = 5 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-5--delay-1` · accoppiamento = 0.5, ritardo fisico = 1 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-5--delay-2` · accoppiamento = 0.5, ritardo fisico = 2 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-5--delay-3` · accoppiamento = 0.5, ritardo fisico = 3 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-5--delay-5` · accoppiamento = 0.5, ritardo fisico = 5 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-8--delay-1` · accoppiamento = 0.8, ritardo fisico = 1 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-8--delay-2` · accoppiamento = 0.8, ritardo fisico = 2 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-8--delay-3` · accoppiamento = 0.8, ritardo fisico = 3 · origine `tables/accuracy.csv`
+- `lag-correct-n--coupling-0-8--delay-5` · accoppiamento = 0.8, ritardo fisico = 5 · origine `tables/accuracy.csv`
+
+## Frequenza di falsi collegamenti rispetto a numerosità
+
+- `false-link-n--coupling-0-0--delay-1` · accoppiamento = 0.0, ritardo fisico = 1 · origine `tables/accuracy.csv`
+
+## TE nelle due direzioni rispetto a accoppiamento
+
+- `directional-te-coupling--delay-1--embedding-canonical--lag-1--n-10000` · ritardo fisico = 1, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-1--n-1000` · ritardo fisico = 1, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-1--n-5000` · ritardo fisico = 1, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-2--n-10000` · ritardo fisico = 1, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-2--n-1000` · ritardo fisico = 1, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-2--n-5000` · ritardo fisico = 1, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-3--n-10000` · ritardo fisico = 1, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-3--n-1000` · ritardo fisico = 1, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-3--n-5000` · ritardo fisico = 1, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-5--n-10000` · ritardo fisico = 1, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-5--n-1000` · ritardo fisico = 1, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-canonical--lag-5--n-5000` · ritardo fisico = 1, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-excessive--lag-1--n-10000` · ritardo fisico = 1, embedding = excessive, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-excessive--lag-1--n-1000` · ritardo fisico = 1, embedding = excessive, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-excessive--lag-1--n-5000` · ritardo fisico = 1, embedding = excessive, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-insufficient--lag-1--n-10000` · ritardo fisico = 1, embedding = insufficient, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-insufficient--lag-1--n-1000` · ritardo fisico = 1, embedding = insufficient, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-1--embedding-insufficient--lag-1--n-5000` · ritardo fisico = 1, embedding = insufficient, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-1--n-10000` · ritardo fisico = 2, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-1--n-1000` · ritardo fisico = 2, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-1--n-5000` · ritardo fisico = 2, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-2--n-10000` · ritardo fisico = 2, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-2--n-1000` · ritardo fisico = 2, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-2--n-5000` · ritardo fisico = 2, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-3--n-10000` · ritardo fisico = 2, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-3--n-1000` · ritardo fisico = 2, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-3--n-5000` · ritardo fisico = 2, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-5--n-10000` · ritardo fisico = 2, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-5--n-1000` · ritardo fisico = 2, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-canonical--lag-5--n-5000` · ritardo fisico = 2, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-excessive--lag-2--n-10000` · ritardo fisico = 2, embedding = excessive, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-excessive--lag-2--n-1000` · ritardo fisico = 2, embedding = excessive, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-excessive--lag-2--n-5000` · ritardo fisico = 2, embedding = excessive, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-insufficient--lag-2--n-10000` · ritardo fisico = 2, embedding = insufficient, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-insufficient--lag-2--n-1000` · ritardo fisico = 2, embedding = insufficient, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-2--embedding-insufficient--lag-2--n-5000` · ritardo fisico = 2, embedding = insufficient, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-1--n-10000` · ritardo fisico = 3, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-1--n-1000` · ritardo fisico = 3, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-1--n-5000` · ritardo fisico = 3, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-2--n-10000` · ritardo fisico = 3, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-2--n-1000` · ritardo fisico = 3, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-2--n-5000` · ritardo fisico = 3, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-3--n-10000` · ritardo fisico = 3, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-3--n-1000` · ritardo fisico = 3, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-3--n-5000` · ritardo fisico = 3, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-5--n-10000` · ritardo fisico = 3, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-5--n-1000` · ritardo fisico = 3, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-canonical--lag-5--n-5000` · ritardo fisico = 3, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-excessive--lag-3--n-10000` · ritardo fisico = 3, embedding = excessive, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-excessive--lag-3--n-1000` · ritardo fisico = 3, embedding = excessive, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-excessive--lag-3--n-5000` · ritardo fisico = 3, embedding = excessive, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-insufficient--lag-3--n-10000` · ritardo fisico = 3, embedding = insufficient, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-insufficient--lag-3--n-1000` · ritardo fisico = 3, embedding = insufficient, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-3--embedding-insufficient--lag-3--n-5000` · ritardo fisico = 3, embedding = insufficient, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-1--n-10000` · ritardo fisico = 5, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-1--n-1000` · ritardo fisico = 5, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-1--n-5000` · ritardo fisico = 5, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-2--n-10000` · ritardo fisico = 5, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-2--n-1000` · ritardo fisico = 5, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-2--n-5000` · ritardo fisico = 5, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-3--n-10000` · ritardo fisico = 5, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-3--n-1000` · ritardo fisico = 5, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-3--n-5000` · ritardo fisico = 5, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-5--n-10000` · ritardo fisico = 5, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-5--n-1000` · ritardo fisico = 5, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-canonical--lag-5--n-5000` · ritardo fisico = 5, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-excessive--lag-5--n-10000` · ritardo fisico = 5, embedding = excessive, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-excessive--lag-5--n-1000` · ritardo fisico = 5, embedding = excessive, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-excessive--lag-5--n-5000` · ritardo fisico = 5, embedding = excessive, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-insufficient--lag-5--n-10000` · ritardo fisico = 5, embedding = insufficient, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-insufficient--lag-5--n-1000` · ritardo fisico = 5, embedding = insufficient, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-coupling--delay-5--embedding-insufficient--lag-5--n-5000` · ritardo fisico = 5, embedding = insufficient, lag = 5, n = 5000 · origine `tables/summaries.csv`
+
+## Differenza di TE tra direzioni rispetto a accoppiamento
+
+- `direction-difference-coupling--delay-1--n-10000` · ritardo fisico = 1, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-1--n-1000` · ritardo fisico = 1, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-1--n-5000` · ritardo fisico = 1, n = 5000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-2--n-10000` · ritardo fisico = 2, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-2--n-1000` · ritardo fisico = 2, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-2--n-5000` · ritardo fisico = 2, n = 5000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-3--n-10000` · ritardo fisico = 3, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-3--n-1000` · ritardo fisico = 3, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-3--n-5000` · ritardo fisico = 3, n = 5000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-5--n-10000` · ritardo fisico = 5, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-5--n-1000` · ritardo fisico = 5, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-coupling--delay-5--n-5000` · ritardo fisico = 5, n = 5000 · origine `tables/paired_comparisons.csv`
+
+## Accuratezza della direzione rispetto a accoppiamento
+
+- `direction-correct-coupling--delay-1--n-10000` · ritardo fisico = 1, n = 10000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-1--n-1000` · ritardo fisico = 1, n = 1000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-1--n-5000` · ritardo fisico = 1, n = 5000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-2--n-10000` · ritardo fisico = 2, n = 10000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-2--n-1000` · ritardo fisico = 2, n = 1000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-2--n-5000` · ritardo fisico = 2, n = 5000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-3--n-10000` · ritardo fisico = 3, n = 10000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-3--n-1000` · ritardo fisico = 3, n = 1000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-3--n-5000` · ritardo fisico = 3, n = 5000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-5--n-10000` · ritardo fisico = 5, n = 10000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-5--n-1000` · ritardo fisico = 5, n = 1000 · origine `tables/accuracy.csv`
+- `direction-correct-coupling--delay-5--n-5000` · ritardo fisico = 5, n = 5000 · origine `tables/accuracy.csv`
+
+## Accuratezza del ritardo selezionato rispetto a accoppiamento
+
+- `lag-correct-coupling--delay-1--n-10000` · ritardo fisico = 1, n = 10000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-1--n-1000` · ritardo fisico = 1, n = 1000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-1--n-5000` · ritardo fisico = 1, n = 5000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-2--n-10000` · ritardo fisico = 2, n = 10000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-2--n-1000` · ritardo fisico = 2, n = 1000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-2--n-5000` · ritardo fisico = 2, n = 5000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-3--n-10000` · ritardo fisico = 3, n = 10000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-3--n-1000` · ritardo fisico = 3, n = 1000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-3--n-5000` · ritardo fisico = 3, n = 5000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-5--n-10000` · ritardo fisico = 5, n = 10000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-5--n-1000` · ritardo fisico = 5, n = 1000 · origine `tables/accuracy.csv`
+- `lag-correct-coupling--delay-5--n-5000` · ritardo fisico = 5, n = 5000 · origine `tables/accuracy.csv`
+
+## Frequenza di falsi collegamenti rispetto a accoppiamento
+
+- `false-link-coupling--delay-1--n-10000` · ritardo fisico = 1, n = 10000 · origine `tables/accuracy.csv`
+- `false-link-coupling--delay-1--n-1000` · ritardo fisico = 1, n = 1000 · origine `tables/accuracy.csv`
+- `false-link-coupling--delay-1--n-5000` · ritardo fisico = 1, n = 5000 · origine `tables/accuracy.csv`
+
+## TE nelle due direzioni rispetto a ritardo fisico
+
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-1--n-10000` · accoppiamento = 0.0, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-1--n-1000` · accoppiamento = 0.0, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-1--n-5000` · accoppiamento = 0.0, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-2--n-10000` · accoppiamento = 0.0, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-2--n-1000` · accoppiamento = 0.0, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-2--n-5000` · accoppiamento = 0.0, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-3--n-10000` · accoppiamento = 0.0, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-3--n-1000` · accoppiamento = 0.0, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-3--n-5000` · accoppiamento = 0.0, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-5--n-10000` · accoppiamento = 0.0, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-5--n-1000` · accoppiamento = 0.0, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-canonical--lag-5--n-5000` · accoppiamento = 0.0, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-excessive--lag-1--n-10000` · accoppiamento = 0.0, embedding = excessive, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-excessive--lag-1--n-1000` · accoppiamento = 0.0, embedding = excessive, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-excessive--lag-1--n-5000` · accoppiamento = 0.0, embedding = excessive, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-insufficient--lag-1--n-10000` · accoppiamento = 0.0, embedding = insufficient, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-insufficient--lag-1--n-1000` · accoppiamento = 0.0, embedding = insufficient, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-0--embedding-insufficient--lag-1--n-5000` · accoppiamento = 0.0, embedding = insufficient, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-1--n-10000` · accoppiamento = 0.1, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-1--n-1000` · accoppiamento = 0.1, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-1--n-5000` · accoppiamento = 0.1, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-2--n-10000` · accoppiamento = 0.1, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-2--n-1000` · accoppiamento = 0.1, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-2--n-5000` · accoppiamento = 0.1, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-3--n-10000` · accoppiamento = 0.1, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-3--n-1000` · accoppiamento = 0.1, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-3--n-5000` · accoppiamento = 0.1, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-5--n-10000` · accoppiamento = 0.1, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-5--n-1000` · accoppiamento = 0.1, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-canonical--lag-5--n-5000` · accoppiamento = 0.1, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-1--n-10000` · accoppiamento = 0.1, embedding = excessive, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-1--n-1000` · accoppiamento = 0.1, embedding = excessive, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-1--n-5000` · accoppiamento = 0.1, embedding = excessive, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-2--n-10000` · accoppiamento = 0.1, embedding = excessive, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-2--n-1000` · accoppiamento = 0.1, embedding = excessive, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-2--n-5000` · accoppiamento = 0.1, embedding = excessive, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-3--n-10000` · accoppiamento = 0.1, embedding = excessive, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-3--n-1000` · accoppiamento = 0.1, embedding = excessive, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-3--n-5000` · accoppiamento = 0.1, embedding = excessive, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-5--n-10000` · accoppiamento = 0.1, embedding = excessive, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-5--n-1000` · accoppiamento = 0.1, embedding = excessive, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-excessive--lag-5--n-5000` · accoppiamento = 0.1, embedding = excessive, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-1--n-10000` · accoppiamento = 0.1, embedding = insufficient, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-1--n-1000` · accoppiamento = 0.1, embedding = insufficient, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-1--n-5000` · accoppiamento = 0.1, embedding = insufficient, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-2--n-10000` · accoppiamento = 0.1, embedding = insufficient, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-2--n-1000` · accoppiamento = 0.1, embedding = insufficient, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-2--n-5000` · accoppiamento = 0.1, embedding = insufficient, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-3--n-10000` · accoppiamento = 0.1, embedding = insufficient, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-3--n-1000` · accoppiamento = 0.1, embedding = insufficient, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-3--n-5000` · accoppiamento = 0.1, embedding = insufficient, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-5--n-10000` · accoppiamento = 0.1, embedding = insufficient, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-5--n-1000` · accoppiamento = 0.1, embedding = insufficient, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-1--embedding-insufficient--lag-5--n-5000` · accoppiamento = 0.1, embedding = insufficient, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-1--n-10000` · accoppiamento = 0.3, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-1--n-1000` · accoppiamento = 0.3, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-1--n-5000` · accoppiamento = 0.3, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-2--n-10000` · accoppiamento = 0.3, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-2--n-1000` · accoppiamento = 0.3, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-2--n-5000` · accoppiamento = 0.3, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-3--n-10000` · accoppiamento = 0.3, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-3--n-1000` · accoppiamento = 0.3, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-3--n-5000` · accoppiamento = 0.3, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-5--n-10000` · accoppiamento = 0.3, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-5--n-1000` · accoppiamento = 0.3, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-canonical--lag-5--n-5000` · accoppiamento = 0.3, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-1--n-10000` · accoppiamento = 0.3, embedding = excessive, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-1--n-1000` · accoppiamento = 0.3, embedding = excessive, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-1--n-5000` · accoppiamento = 0.3, embedding = excessive, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-2--n-10000` · accoppiamento = 0.3, embedding = excessive, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-2--n-1000` · accoppiamento = 0.3, embedding = excessive, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-2--n-5000` · accoppiamento = 0.3, embedding = excessive, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-3--n-10000` · accoppiamento = 0.3, embedding = excessive, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-3--n-1000` · accoppiamento = 0.3, embedding = excessive, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-3--n-5000` · accoppiamento = 0.3, embedding = excessive, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-5--n-10000` · accoppiamento = 0.3, embedding = excessive, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-5--n-1000` · accoppiamento = 0.3, embedding = excessive, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-excessive--lag-5--n-5000` · accoppiamento = 0.3, embedding = excessive, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-1--n-10000` · accoppiamento = 0.3, embedding = insufficient, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-1--n-1000` · accoppiamento = 0.3, embedding = insufficient, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-1--n-5000` · accoppiamento = 0.3, embedding = insufficient, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-2--n-10000` · accoppiamento = 0.3, embedding = insufficient, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-2--n-1000` · accoppiamento = 0.3, embedding = insufficient, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-2--n-5000` · accoppiamento = 0.3, embedding = insufficient, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-3--n-10000` · accoppiamento = 0.3, embedding = insufficient, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-3--n-1000` · accoppiamento = 0.3, embedding = insufficient, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-3--n-5000` · accoppiamento = 0.3, embedding = insufficient, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-5--n-10000` · accoppiamento = 0.3, embedding = insufficient, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-5--n-1000` · accoppiamento = 0.3, embedding = insufficient, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-3--embedding-insufficient--lag-5--n-5000` · accoppiamento = 0.3, embedding = insufficient, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-1--n-10000` · accoppiamento = 0.5, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-1--n-1000` · accoppiamento = 0.5, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-1--n-5000` · accoppiamento = 0.5, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-2--n-10000` · accoppiamento = 0.5, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-2--n-1000` · accoppiamento = 0.5, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-2--n-5000` · accoppiamento = 0.5, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-3--n-10000` · accoppiamento = 0.5, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-3--n-1000` · accoppiamento = 0.5, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-3--n-5000` · accoppiamento = 0.5, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-5--n-10000` · accoppiamento = 0.5, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-5--n-1000` · accoppiamento = 0.5, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-canonical--lag-5--n-5000` · accoppiamento = 0.5, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-1--n-10000` · accoppiamento = 0.5, embedding = excessive, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-1--n-1000` · accoppiamento = 0.5, embedding = excessive, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-1--n-5000` · accoppiamento = 0.5, embedding = excessive, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-2--n-10000` · accoppiamento = 0.5, embedding = excessive, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-2--n-1000` · accoppiamento = 0.5, embedding = excessive, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-2--n-5000` · accoppiamento = 0.5, embedding = excessive, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-3--n-10000` · accoppiamento = 0.5, embedding = excessive, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-3--n-1000` · accoppiamento = 0.5, embedding = excessive, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-3--n-5000` · accoppiamento = 0.5, embedding = excessive, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-5--n-10000` · accoppiamento = 0.5, embedding = excessive, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-5--n-1000` · accoppiamento = 0.5, embedding = excessive, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-excessive--lag-5--n-5000` · accoppiamento = 0.5, embedding = excessive, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-1--n-10000` · accoppiamento = 0.5, embedding = insufficient, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-1--n-1000` · accoppiamento = 0.5, embedding = insufficient, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-1--n-5000` · accoppiamento = 0.5, embedding = insufficient, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-2--n-10000` · accoppiamento = 0.5, embedding = insufficient, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-2--n-1000` · accoppiamento = 0.5, embedding = insufficient, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-2--n-5000` · accoppiamento = 0.5, embedding = insufficient, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-3--n-10000` · accoppiamento = 0.5, embedding = insufficient, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-3--n-1000` · accoppiamento = 0.5, embedding = insufficient, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-3--n-5000` · accoppiamento = 0.5, embedding = insufficient, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-5--n-10000` · accoppiamento = 0.5, embedding = insufficient, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-5--n-1000` · accoppiamento = 0.5, embedding = insufficient, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-5--embedding-insufficient--lag-5--n-5000` · accoppiamento = 0.5, embedding = insufficient, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-1--n-10000` · accoppiamento = 0.8, embedding = canonical, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-1--n-1000` · accoppiamento = 0.8, embedding = canonical, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-1--n-5000` · accoppiamento = 0.8, embedding = canonical, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-2--n-10000` · accoppiamento = 0.8, embedding = canonical, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-2--n-1000` · accoppiamento = 0.8, embedding = canonical, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-2--n-5000` · accoppiamento = 0.8, embedding = canonical, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-3--n-10000` · accoppiamento = 0.8, embedding = canonical, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-3--n-1000` · accoppiamento = 0.8, embedding = canonical, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-3--n-5000` · accoppiamento = 0.8, embedding = canonical, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-5--n-10000` · accoppiamento = 0.8, embedding = canonical, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-5--n-1000` · accoppiamento = 0.8, embedding = canonical, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-canonical--lag-5--n-5000` · accoppiamento = 0.8, embedding = canonical, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-1--n-10000` · accoppiamento = 0.8, embedding = excessive, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-1--n-1000` · accoppiamento = 0.8, embedding = excessive, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-1--n-5000` · accoppiamento = 0.8, embedding = excessive, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-2--n-10000` · accoppiamento = 0.8, embedding = excessive, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-2--n-1000` · accoppiamento = 0.8, embedding = excessive, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-2--n-5000` · accoppiamento = 0.8, embedding = excessive, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-3--n-10000` · accoppiamento = 0.8, embedding = excessive, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-3--n-1000` · accoppiamento = 0.8, embedding = excessive, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-3--n-5000` · accoppiamento = 0.8, embedding = excessive, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-5--n-10000` · accoppiamento = 0.8, embedding = excessive, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-5--n-1000` · accoppiamento = 0.8, embedding = excessive, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-excessive--lag-5--n-5000` · accoppiamento = 0.8, embedding = excessive, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-1--n-10000` · accoppiamento = 0.8, embedding = insufficient, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-1--n-1000` · accoppiamento = 0.8, embedding = insufficient, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-1--n-5000` · accoppiamento = 0.8, embedding = insufficient, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-2--n-10000` · accoppiamento = 0.8, embedding = insufficient, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-2--n-1000` · accoppiamento = 0.8, embedding = insufficient, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-2--n-5000` · accoppiamento = 0.8, embedding = insufficient, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-3--n-10000` · accoppiamento = 0.8, embedding = insufficient, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-3--n-1000` · accoppiamento = 0.8, embedding = insufficient, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-3--n-5000` · accoppiamento = 0.8, embedding = insufficient, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-5--n-10000` · accoppiamento = 0.8, embedding = insufficient, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-5--n-1000` · accoppiamento = 0.8, embedding = insufficient, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `directional-te-delay--coupling-0-8--embedding-insufficient--lag-5--n-5000` · accoppiamento = 0.8, embedding = insufficient, lag = 5, n = 5000 · origine `tables/summaries.csv`
+
+## Differenza di TE tra direzioni rispetto a ritardo fisico
+
+- `direction-difference-delay--coupling-0-0--n-10000` · accoppiamento = 0.0, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-0--n-1000` · accoppiamento = 0.0, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-0--n-5000` · accoppiamento = 0.0, n = 5000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-1--n-10000` · accoppiamento = 0.1, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-1--n-1000` · accoppiamento = 0.1, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-1--n-5000` · accoppiamento = 0.1, n = 5000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-3--n-10000` · accoppiamento = 0.3, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-3--n-1000` · accoppiamento = 0.3, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-3--n-5000` · accoppiamento = 0.3, n = 5000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-5--n-10000` · accoppiamento = 0.5, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-5--n-1000` · accoppiamento = 0.5, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-5--n-5000` · accoppiamento = 0.5, n = 5000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-8--n-10000` · accoppiamento = 0.8, n = 10000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-8--n-1000` · accoppiamento = 0.8, n = 1000 · origine `tables/paired_comparisons.csv`
+- `direction-difference-delay--coupling-0-8--n-5000` · accoppiamento = 0.8, n = 5000 · origine `tables/paired_comparisons.csv`
+
+## Accuratezza della direzione rispetto a ritardo fisico
+
+- `direction-correct-delay--coupling-0-1--n-10000` · accoppiamento = 0.1, n = 10000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-1--n-1000` · accoppiamento = 0.1, n = 1000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-1--n-5000` · accoppiamento = 0.1, n = 5000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-3--n-10000` · accoppiamento = 0.3, n = 10000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-3--n-1000` · accoppiamento = 0.3, n = 1000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-3--n-5000` · accoppiamento = 0.3, n = 5000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-5--n-10000` · accoppiamento = 0.5, n = 10000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-5--n-1000` · accoppiamento = 0.5, n = 1000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-5--n-5000` · accoppiamento = 0.5, n = 5000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-8--n-10000` · accoppiamento = 0.8, n = 10000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-8--n-1000` · accoppiamento = 0.8, n = 1000 · origine `tables/accuracy.csv`
+- `direction-correct-delay--coupling-0-8--n-5000` · accoppiamento = 0.8, n = 5000 · origine `tables/accuracy.csv`
+
+## Accuratezza del ritardo selezionato rispetto a ritardo fisico
+
+- `lag-correct-delay--coupling-0-1--n-10000` · accoppiamento = 0.1, n = 10000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-1--n-1000` · accoppiamento = 0.1, n = 1000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-1--n-5000` · accoppiamento = 0.1, n = 5000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-3--n-10000` · accoppiamento = 0.3, n = 10000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-3--n-1000` · accoppiamento = 0.3, n = 1000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-3--n-5000` · accoppiamento = 0.3, n = 5000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-5--n-10000` · accoppiamento = 0.5, n = 10000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-5--n-1000` · accoppiamento = 0.5, n = 1000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-5--n-5000` · accoppiamento = 0.5, n = 5000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-8--n-10000` · accoppiamento = 0.8, n = 10000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-8--n-1000` · accoppiamento = 0.8, n = 1000 · origine `tables/accuracy.csv`
+- `lag-correct-delay--coupling-0-8--n-5000` · accoppiamento = 0.8, n = 5000 · origine `tables/accuracy.csv`
+
+## Frequenza di falsi collegamenti rispetto a ritardo fisico
+
+- `false-link-delay--coupling-0-0--n-10000` · accoppiamento = 0.0, n = 10000 · origine `tables/accuracy.csv`
+- `false-link-delay--coupling-0-0--n-1000` · accoppiamento = 0.0, n = 1000 · origine `tables/accuracy.csv`
+- `false-link-delay--coupling-0-0--n-5000` · accoppiamento = 0.0, n = 5000 · origine `tables/accuracy.csv`
+
+## Sensibilità all’embedding
+
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-1--n-10000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-1--n-1000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-1--n-5000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-2--n-10000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-2--n-1000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-2--n-5000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-3--n-10000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-3--n-1000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-3--n-5000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-5--n-10000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-5--n-1000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-0--delay-1--lag-5--n-5000` · accoppiamento = 0.0, ritardo fisico = 1, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-1--n-10000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-1--n-1000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-1--n-5000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-2--n-10000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-2--n-1000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-2--n-5000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-3--n-10000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-3--n-1000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-3--n-5000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-5--n-10000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-5--n-1000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-1--lag-5--n-5000` · accoppiamento = 0.1, ritardo fisico = 1, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-1--n-10000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-1--n-1000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-1--n-5000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-2--n-10000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-2--n-1000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-2--n-5000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-3--n-10000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-3--n-1000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-3--n-5000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-5--n-10000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-5--n-1000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-2--lag-5--n-5000` · accoppiamento = 0.1, ritardo fisico = 2, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-1--n-10000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-1--n-1000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-1--n-5000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-2--n-10000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-2--n-1000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-2--n-5000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-3--n-10000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-3--n-1000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-3--n-5000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-5--n-10000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-5--n-1000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-3--lag-5--n-5000` · accoppiamento = 0.1, ritardo fisico = 3, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-1--n-10000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-1--n-1000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-1--n-5000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-2--n-10000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-2--n-1000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-2--n-5000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-3--n-10000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-3--n-1000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-3--n-5000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-5--n-10000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-5--n-1000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-1--delay-5--lag-5--n-5000` · accoppiamento = 0.1, ritardo fisico = 5, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-1--n-10000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-1--n-1000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-1--n-5000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-2--n-10000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-2--n-1000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-2--n-5000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-3--n-10000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-3--n-1000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-3--n-5000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-5--n-10000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-5--n-1000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-1--lag-5--n-5000` · accoppiamento = 0.3, ritardo fisico = 1, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-1--n-10000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-1--n-1000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-1--n-5000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-2--n-10000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-2--n-1000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-2--n-5000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-3--n-10000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-3--n-1000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-3--n-5000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-5--n-10000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-5--n-1000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-2--lag-5--n-5000` · accoppiamento = 0.3, ritardo fisico = 2, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-1--n-10000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-1--n-1000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-1--n-5000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-2--n-10000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-2--n-1000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-2--n-5000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-3--n-10000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-3--n-1000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-3--n-5000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-5--n-10000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-5--n-1000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-3--lag-5--n-5000` · accoppiamento = 0.3, ritardo fisico = 3, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-1--n-10000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-1--n-1000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-1--n-5000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-2--n-10000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-2--n-1000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-2--n-5000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-3--n-10000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-3--n-1000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-3--n-5000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-5--n-10000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-5--n-1000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-3--delay-5--lag-5--n-5000` · accoppiamento = 0.3, ritardo fisico = 5, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-1--n-10000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-1--n-1000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-1--n-5000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-2--n-10000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-2--n-1000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-2--n-5000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-3--n-10000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-3--n-1000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-3--n-5000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-5--n-10000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-5--n-1000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-1--lag-5--n-5000` · accoppiamento = 0.5, ritardo fisico = 1, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-1--n-10000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-1--n-1000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-1--n-5000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-2--n-10000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-2--n-1000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-2--n-5000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-3--n-10000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-3--n-1000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-3--n-5000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-5--n-10000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-5--n-1000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-2--lag-5--n-5000` · accoppiamento = 0.5, ritardo fisico = 2, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-1--n-10000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-1--n-1000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-1--n-5000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-2--n-10000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-2--n-1000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-2--n-5000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-3--n-10000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-3--n-1000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-3--n-5000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-5--n-10000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-5--n-1000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-3--lag-5--n-5000` · accoppiamento = 0.5, ritardo fisico = 3, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-1--n-10000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-1--n-1000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-1--n-5000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-2--n-10000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-2--n-1000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-2--n-5000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-3--n-10000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-3--n-1000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-3--n-5000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-5--n-10000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-5--n-1000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-5--delay-5--lag-5--n-5000` · accoppiamento = 0.5, ritardo fisico = 5, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-1--n-10000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-1--n-1000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-1--n-5000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-2--n-10000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-2--n-1000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-2--n-5000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-3--n-10000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-3--n-1000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-3--n-5000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-5--n-10000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-5--n-1000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-1--lag-5--n-5000` · accoppiamento = 0.8, ritardo fisico = 1, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-1--n-10000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-1--n-1000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-1--n-5000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-2--n-10000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-2--n-1000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-2--n-5000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-3--n-10000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-3--n-1000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-3--n-5000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-5--n-10000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-5--n-1000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-2--lag-5--n-5000` · accoppiamento = 0.8, ritardo fisico = 2, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-1--n-10000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-1--n-1000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-1--n-5000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-2--n-10000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-2--n-1000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-2--n-5000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-3--n-10000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-3--n-1000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-3--n-5000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-5--n-10000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-5--n-1000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-3--lag-5--n-5000` · accoppiamento = 0.8, ritardo fisico = 3, lag = 5, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-1--n-10000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 1, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-1--n-1000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 1, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-1--n-5000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 1, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-2--n-10000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 2, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-2--n-1000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 2, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-2--n-5000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 2, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-3--n-10000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 3, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-3--n-1000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 3, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-3--n-5000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 3, n = 5000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-5--n-10000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 5, n = 10000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-5--n-1000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 5, n = 1000 · origine `tables/summaries.csv`
+- `embedding-sensitivity--coupling-0-8--delay-5--lag-5--n-5000` · accoppiamento = 0.8, ritardo fisico = 5, lag = 5, n = 5000 · origine `tables/summaries.csv`
+
+## RMSE della TE a storia finita
+
+- `te-rmse--coupling-0-0--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-0--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-0--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-0--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-0--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-0--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-1--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-3--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-5--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `te-rmse--coupling-0-8--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+
+## Tempo medio di esecuzione
+
+- `runtime--coupling-0-0--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-0--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-0--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-0--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-0--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-0--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-1--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-3--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-5--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `runtime--coupling-0-8--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+
+## Stato delle esecuzioni
+
+- `failure-counts--coupling-0-0--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-0--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-0--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-0--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.0, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-0--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-0--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.0, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.1, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.1, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.1, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-1--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.1, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.3, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.3, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.3, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-3--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.3, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.5, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.5, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.5, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-5--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.5, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-1--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-1--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-1--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-1--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 1, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-1--embedding-excessive--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = excessive, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-1--embedding-insufficient--lag-1` · accoppiamento = 0.8, ritardo fisico = 1, embedding = insufficient, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-2--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-2--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-2--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-2--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 2, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-2--embedding-excessive--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = excessive, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-2--embedding-insufficient--lag-2` · accoppiamento = 0.8, ritardo fisico = 2, embedding = insufficient, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-3--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-3--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-3--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-3--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 3, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-3--embedding-excessive--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = excessive, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-3--embedding-insufficient--lag-3` · accoppiamento = 0.8, ritardo fisico = 3, embedding = insufficient, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-5--embedding-canonical--lag-1` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 1 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-5--embedding-canonical--lag-2` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 2 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-5--embedding-canonical--lag-3` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 3 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-5--embedding-canonical--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = canonical, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-5--embedding-excessive--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = excessive, lag = 5 · origine `tables/summaries.csv`
+- `failure-counts--coupling-0-8--delay-5--embedding-insufficient--lag-5` · accoppiamento = 0.8, ritardo fisico = 5, embedding = insufficient, lag = 5 · origine `tables/summaries.csv`

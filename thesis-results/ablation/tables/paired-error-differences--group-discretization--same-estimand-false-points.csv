@@ -1,0 +1,3 @@
+x,y,series,interval_lower,interval_upper,reference_nats,n_complete_or_evaluated,n_planned,csv_row_index_zero_based
+A032-discretization-K3,0.0063295143507531,A031-discretization-K2,0.0019469539753515367,0.010929193885510499,,30,30,79
+A033-discretization-K5,0.011913781150270768,A031-discretization-K2,0.007628643092541127,0.016537927448252162,,30,30,82

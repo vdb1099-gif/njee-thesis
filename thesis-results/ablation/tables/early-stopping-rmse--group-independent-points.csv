@@ -1,0 +1,3 @@
+x,y,series,interval_lower,interval_upper,reference_nats,n_complete_or_evaluated,n_planned,csv_row_index_zero_based
+no-early-stopping,0.020878631646031865,early_stopping,0.01693877449267162,0.024757744249519615,4.1588830833596715,30,30,14
+reference,0.011912997289893635,reference,0.00949807112874377,0.014156422366939227,4.1588830833596715,30,30,0

@@ -1,0 +1,2 @@
+x,y,series,interval_lower,interval_upper,reference_nats,n_complete_or_evaluated,n_planned,csv_row_index_zero_based
+reference,0.06174100298817285,reference,0.0509031844700232,0.071638486267971,2.8066926195899,30,30,15

@@ -1,0 +1,427 @@
+# Catalogo delle figure · Informazione mutua e condizionale
+
+388 figure. I nomi corrispondono ai file PNG e SVG del pacchetto scaricabile.
+
+## Stima media con segno
+
+- `mean-estimate-nats-sample-size--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mean-estimate-nats-sample-size--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+
+## Bias rispetto alla numerosità
+
+- `bias-nats-sample-size--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `bias-nats-sample-size--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+
+## RMSE rispetto alla numerosità
+
+- `rmse-nats-sample-size--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `rmse-nats-sample-size--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+
+## Errore assoluto medio
+
+- `mae-nats-sample-size--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `mae-nats-sample-size--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+
+## Deviazione standard campionaria
+
+- `sample-std-nats-sample-size--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `sample-std-nats-sample-size--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+
+## Frequenza delle stime negative
+
+- `negative-frequency--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `negative-frequency--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+
+## Errori delle due componenti entropiche
+
+- `component-errors--cell-id-i001-bsc-ex000-ey000-n00250` · scenario = I001-bsc-ex000-ey000-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i002-bsc-ex000-ey000-n00500` · scenario = I002-bsc-ex000-ey000-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i003-bsc-ex000-ey000-n01000` · scenario = I003-bsc-ex000-ey000-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i004-bsc-ex000-ey000-n05000` · scenario = I004-bsc-ex000-ey000-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i005-bsc-ex000-ey000-n10000` · scenario = I005-bsc-ex000-ey000-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i006-bsc-ex000-ey005-n00250` · scenario = I006-bsc-ex000-ey005-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i007-bsc-ex000-ey005-n00500` · scenario = I007-bsc-ex000-ey005-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i008-bsc-ex000-ey005-n01000` · scenario = I008-bsc-ex000-ey005-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i009-bsc-ex000-ey005-n05000` · scenario = I009-bsc-ex000-ey005-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i010-bsc-ex000-ey005-n10000` · scenario = I010-bsc-ex000-ey005-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i011-bsc-ex000-ey015-n00250` · scenario = I011-bsc-ex000-ey015-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i012-bsc-ex000-ey015-n00500` · scenario = I012-bsc-ex000-ey015-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i013-bsc-ex000-ey015-n01000` · scenario = I013-bsc-ex000-ey015-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i014-bsc-ex000-ey015-n05000` · scenario = I014-bsc-ex000-ey015-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i015-bsc-ex000-ey015-n10000` · scenario = I015-bsc-ex000-ey015-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i016-bsc-ex000-ey030-n00250` · scenario = I016-bsc-ex000-ey030-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i017-bsc-ex000-ey030-n00500` · scenario = I017-bsc-ex000-ey030-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i018-bsc-ex000-ey030-n01000` · scenario = I018-bsc-ex000-ey030-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i019-bsc-ex000-ey030-n05000` · scenario = I019-bsc-ex000-ey030-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i020-bsc-ex000-ey030-n10000` · scenario = I020-bsc-ex000-ey030-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i021-bsc-ex000-ey050-n00250` · scenario = I021-bsc-ex000-ey050-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i022-bsc-ex000-ey050-n00500` · scenario = I022-bsc-ex000-ey050-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i023-bsc-ex000-ey050-n01000` · scenario = I023-bsc-ex000-ey050-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i024-bsc-ex000-ey050-n05000` · scenario = I024-bsc-ex000-ey050-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i025-bsc-ex000-ey050-n10000` · scenario = I025-bsc-ex000-ey050-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i026-chain-ex015-ey000-n00250` · scenario = I026-chain-ex015-ey000-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i027-chain-ex015-ey000-n00500` · scenario = I027-chain-ex015-ey000-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i028-chain-ex015-ey000-n01000` · scenario = I028-chain-ex015-ey000-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i029-chain-ex015-ey000-n05000` · scenario = I029-chain-ex015-ey000-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i030-chain-ex015-ey000-n10000` · scenario = I030-chain-ex015-ey000-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i031-chain-ex015-ey005-n00250` · scenario = I031-chain-ex015-ey005-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i032-chain-ex015-ey005-n00500` · scenario = I032-chain-ex015-ey005-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i033-chain-ex015-ey005-n01000` · scenario = I033-chain-ex015-ey005-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i034-chain-ex015-ey005-n05000` · scenario = I034-chain-ex015-ey005-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i035-chain-ex015-ey005-n10000` · scenario = I035-chain-ex015-ey005-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i036-chain-ex015-ey015-n00250` · scenario = I036-chain-ex015-ey015-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i037-chain-ex015-ey015-n00500` · scenario = I037-chain-ex015-ey015-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i038-chain-ex015-ey015-n01000` · scenario = I038-chain-ex015-ey015-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i039-chain-ex015-ey015-n05000` · scenario = I039-chain-ex015-ey015-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i040-chain-ex015-ey015-n10000` · scenario = I040-chain-ex015-ey015-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i041-chain-ex015-ey030-n00250` · scenario = I041-chain-ex015-ey030-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i042-chain-ex015-ey030-n00500` · scenario = I042-chain-ex015-ey030-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i043-chain-ex015-ey030-n01000` · scenario = I043-chain-ex015-ey030-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i044-chain-ex015-ey030-n05000` · scenario = I044-chain-ex015-ey030-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i045-chain-ex015-ey030-n10000` · scenario = I045-chain-ex015-ey030-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i046-chain-ex015-ey050-n00250` · scenario = I046-chain-ex015-ey050-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i047-chain-ex015-ey050-n00500` · scenario = I047-chain-ex015-ey050-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i048-chain-ex015-ey050-n01000` · scenario = I048-chain-ex015-ey050-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i049-chain-ex015-ey050-n05000` · scenario = I049-chain-ex015-ey050-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i050-chain-ex015-ey050-n10000` · scenario = I050-chain-ex015-ey050-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i051-chain-ex050-ey000-n00250` · scenario = I051-chain-ex050-ey000-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i052-chain-ex050-ey000-n00500` · scenario = I052-chain-ex050-ey000-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i053-chain-ex050-ey000-n01000` · scenario = I053-chain-ex050-ey000-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i054-chain-ex050-ey000-n05000` · scenario = I054-chain-ex050-ey000-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i055-chain-ex050-ey000-n10000` · scenario = I055-chain-ex050-ey000-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i056-chain-ex050-ey005-n00250` · scenario = I056-chain-ex050-ey005-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i057-chain-ex050-ey005-n00500` · scenario = I057-chain-ex050-ey005-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i058-chain-ex050-ey005-n01000` · scenario = I058-chain-ex050-ey005-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i059-chain-ex050-ey005-n05000` · scenario = I059-chain-ex050-ey005-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i060-chain-ex050-ey005-n10000` · scenario = I060-chain-ex050-ey005-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i061-chain-ex050-ey015-n00250` · scenario = I061-chain-ex050-ey015-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i062-chain-ex050-ey015-n00500` · scenario = I062-chain-ex050-ey015-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i063-chain-ex050-ey015-n01000` · scenario = I063-chain-ex050-ey015-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i064-chain-ex050-ey015-n05000` · scenario = I064-chain-ex050-ey015-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i065-chain-ex050-ey015-n10000` · scenario = I065-chain-ex050-ey015-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i066-chain-ex050-ey030-n00250` · scenario = I066-chain-ex050-ey030-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i067-chain-ex050-ey030-n00500` · scenario = I067-chain-ex050-ey030-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i068-chain-ex050-ey030-n01000` · scenario = I068-chain-ex050-ey030-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i069-chain-ex050-ey030-n05000` · scenario = I069-chain-ex050-ey030-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i070-chain-ex050-ey030-n10000` · scenario = I070-chain-ex050-ey030-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i071-chain-ex050-ey050-n00250` · scenario = I071-chain-ex050-ey050-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i072-chain-ex050-ey050-n00500` · scenario = I072-chain-ex050-ey050-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i073-chain-ex050-ey050-n01000` · scenario = I073-chain-ex050-ey050-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i074-chain-ex050-ey050-n05000` · scenario = I074-chain-ex050-ey050-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i075-chain-ex050-ey050-n10000` · scenario = I075-chain-ex050-ey050-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i076-fork-ex015-ey015-n00250` · scenario = I076-fork-ex015-ey015-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i077-fork-ex015-ey015-n00500` · scenario = I077-fork-ex015-ey015-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i078-fork-ex015-ey015-n01000` · scenario = I078-fork-ex015-ey015-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i079-fork-ex015-ey015-n05000` · scenario = I079-fork-ex015-ey015-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i080-fork-ex015-ey015-n10000` · scenario = I080-fork-ex015-ey015-n10000 · origine `tables/components.csv`
+- `component-errors--cell-id-i081-fork-ex015-ey050-n00250` · scenario = I081-fork-ex015-ey050-n00250 · origine `tables/components.csv`
+- `component-errors--cell-id-i082-fork-ex015-ey050-n00500` · scenario = I082-fork-ex015-ey050-n00500 · origine `tables/components.csv`
+- `component-errors--cell-id-i083-fork-ex015-ey050-n01000` · scenario = I083-fork-ex015-ey050-n01000 · origine `tables/components.csv`
+- `component-errors--cell-id-i084-fork-ex015-ey050-n05000` · scenario = I084-fork-ex015-ey050-n05000 · origine `tables/components.csv`
+- `component-errors--cell-id-i085-fork-ex015-ey050-n10000` · scenario = I085-fork-ex015-ey050-n10000 · origine `tables/components.csv`
+
+## Correlazione tra gli errori delle componenti
+
+- `component-error-correlation--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+- `component-error-correlation--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/correlations.csv`
+
+## Falsi positivi nei casi nulli
+
+- `null-false-positive-rate--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/accuracy.csv`
+- `null-false-positive-rate--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/accuracy.csv`
+- `null-false-positive-rate--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+- `null-false-positive-rate--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/accuracy.csv`
+- `null-false-positive-rate--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/accuracy.csv`
+
+## Differenza appaiata di errore assoluto
+
+- `paired-absolute-error--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+- `paired-absolute-error--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/paired_comparisons.csv`
+
+## Tempo medio rispetto alla numerosità
+
+- `runtime-sample-size--epsilon-x-0-0--epsilon-y-0-0--family-bsc--quantity-mi` · εX = 0.0, εY = 0.0, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-0--epsilon-y-0-05--family-bsc--quantity-mi` · εX = 0.0, εY = 0.05, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-0--epsilon-y-0-15--family-bsc--quantity-mi` · εX = 0.0, εY = 0.15, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-0--epsilon-y-0-3--family-bsc--quantity-mi` · εX = 0.0, εY = 0.3, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-0--epsilon-y-0-5--family-bsc--quantity-mi` · εX = 0.0, εY = 0.5, generatore = bsc, quantità = MI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-15--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.15, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-15--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.15, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-15--epsilon-y-0-15--family-fork--quantity-cmi` · εX = 0.15, εY = 0.15, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-15--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.15, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-15--epsilon-y-0-5--family-fork--quantity-cmi` · εX = 0.15, εY = 0.5, generatore = fork, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-5--epsilon-y-0-0--family-chain--quantity-cmi` · εX = 0.5, εY = 0.0, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-5--epsilon-y-0-05--family-chain--quantity-cmi` · εX = 0.5, εY = 0.05, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-5--epsilon-y-0-15--family-chain--quantity-cmi` · εX = 0.5, εY = 0.15, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-5--epsilon-y-0-3--family-chain--quantity-cmi` · εX = 0.5, εY = 0.3, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+- `runtime-sample-size--epsilon-x-0-5--epsilon-y-0-5--family-chain--quantity-cmi` · εX = 0.5, εY = 0.5, generatore = chain, quantità = CMI · origine `tables/summaries.csv`
+
+## Cross-entropy di validazione per termine
+
+- `conditional-term-validation--cell-id-i001-bsc-ex000-ey000-n00250--component-h-x-given-y` · scenario = I001-bsc-ex000-ey000-n00250, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i002-bsc-ex000-ey000-n00500--component-h-x-given-y` · scenario = I002-bsc-ex000-ey000-n00500, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i003-bsc-ex000-ey000-n01000--component-h-x-given-y` · scenario = I003-bsc-ex000-ey000-n01000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i004-bsc-ex000-ey000-n05000--component-h-x-given-y` · scenario = I004-bsc-ex000-ey000-n05000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i005-bsc-ex000-ey000-n10000--component-h-x-given-y` · scenario = I005-bsc-ex000-ey000-n10000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i006-bsc-ex000-ey005-n00250--component-h-x-given-y` · scenario = I006-bsc-ex000-ey005-n00250, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i007-bsc-ex000-ey005-n00500--component-h-x-given-y` · scenario = I007-bsc-ex000-ey005-n00500, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i008-bsc-ex000-ey005-n01000--component-h-x-given-y` · scenario = I008-bsc-ex000-ey005-n01000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i009-bsc-ex000-ey005-n05000--component-h-x-given-y` · scenario = I009-bsc-ex000-ey005-n05000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i010-bsc-ex000-ey005-n10000--component-h-x-given-y` · scenario = I010-bsc-ex000-ey005-n10000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i011-bsc-ex000-ey015-n00250--component-h-x-given-y` · scenario = I011-bsc-ex000-ey015-n00250, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i012-bsc-ex000-ey015-n00500--component-h-x-given-y` · scenario = I012-bsc-ex000-ey015-n00500, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i013-bsc-ex000-ey015-n01000--component-h-x-given-y` · scenario = I013-bsc-ex000-ey015-n01000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i014-bsc-ex000-ey015-n05000--component-h-x-given-y` · scenario = I014-bsc-ex000-ey015-n05000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i015-bsc-ex000-ey015-n10000--component-h-x-given-y` · scenario = I015-bsc-ex000-ey015-n10000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i016-bsc-ex000-ey030-n00250--component-h-x-given-y` · scenario = I016-bsc-ex000-ey030-n00250, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i017-bsc-ex000-ey030-n00500--component-h-x-given-y` · scenario = I017-bsc-ex000-ey030-n00500, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i018-bsc-ex000-ey030-n01000--component-h-x-given-y` · scenario = I018-bsc-ex000-ey030-n01000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i019-bsc-ex000-ey030-n05000--component-h-x-given-y` · scenario = I019-bsc-ex000-ey030-n05000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i020-bsc-ex000-ey030-n10000--component-h-x-given-y` · scenario = I020-bsc-ex000-ey030-n10000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i021-bsc-ex000-ey050-n00250--component-h-x-given-y` · scenario = I021-bsc-ex000-ey050-n00250, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i022-bsc-ex000-ey050-n00500--component-h-x-given-y` · scenario = I022-bsc-ex000-ey050-n00500, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i023-bsc-ex000-ey050-n01000--component-h-x-given-y` · scenario = I023-bsc-ex000-ey050-n01000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i024-bsc-ex000-ey050-n05000--component-h-x-given-y` · scenario = I024-bsc-ex000-ey050-n05000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i025-bsc-ex000-ey050-n10000--component-h-x-given-y` · scenario = I025-bsc-ex000-ey050-n10000, componente = h_x_given_y · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i026-chain-ex015-ey000-n00250--component-h-x-given-yz` · scenario = I026-chain-ex015-ey000-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i026-chain-ex015-ey000-n00250--component-h-x-given-z` · scenario = I026-chain-ex015-ey000-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i027-chain-ex015-ey000-n00500--component-h-x-given-yz` · scenario = I027-chain-ex015-ey000-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i027-chain-ex015-ey000-n00500--component-h-x-given-z` · scenario = I027-chain-ex015-ey000-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i028-chain-ex015-ey000-n01000--component-h-x-given-yz` · scenario = I028-chain-ex015-ey000-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i028-chain-ex015-ey000-n01000--component-h-x-given-z` · scenario = I028-chain-ex015-ey000-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i029-chain-ex015-ey000-n05000--component-h-x-given-yz` · scenario = I029-chain-ex015-ey000-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i029-chain-ex015-ey000-n05000--component-h-x-given-z` · scenario = I029-chain-ex015-ey000-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i030-chain-ex015-ey000-n10000--component-h-x-given-yz` · scenario = I030-chain-ex015-ey000-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i030-chain-ex015-ey000-n10000--component-h-x-given-z` · scenario = I030-chain-ex015-ey000-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i031-chain-ex015-ey005-n00250--component-h-x-given-yz` · scenario = I031-chain-ex015-ey005-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i031-chain-ex015-ey005-n00250--component-h-x-given-z` · scenario = I031-chain-ex015-ey005-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i032-chain-ex015-ey005-n00500--component-h-x-given-yz` · scenario = I032-chain-ex015-ey005-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i032-chain-ex015-ey005-n00500--component-h-x-given-z` · scenario = I032-chain-ex015-ey005-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i033-chain-ex015-ey005-n01000--component-h-x-given-yz` · scenario = I033-chain-ex015-ey005-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i033-chain-ex015-ey005-n01000--component-h-x-given-z` · scenario = I033-chain-ex015-ey005-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i034-chain-ex015-ey005-n05000--component-h-x-given-yz` · scenario = I034-chain-ex015-ey005-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i034-chain-ex015-ey005-n05000--component-h-x-given-z` · scenario = I034-chain-ex015-ey005-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i035-chain-ex015-ey005-n10000--component-h-x-given-yz` · scenario = I035-chain-ex015-ey005-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i035-chain-ex015-ey005-n10000--component-h-x-given-z` · scenario = I035-chain-ex015-ey005-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i036-chain-ex015-ey015-n00250--component-h-x-given-yz` · scenario = I036-chain-ex015-ey015-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i036-chain-ex015-ey015-n00250--component-h-x-given-z` · scenario = I036-chain-ex015-ey015-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i037-chain-ex015-ey015-n00500--component-h-x-given-yz` · scenario = I037-chain-ex015-ey015-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i037-chain-ex015-ey015-n00500--component-h-x-given-z` · scenario = I037-chain-ex015-ey015-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i038-chain-ex015-ey015-n01000--component-h-x-given-yz` · scenario = I038-chain-ex015-ey015-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i038-chain-ex015-ey015-n01000--component-h-x-given-z` · scenario = I038-chain-ex015-ey015-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i039-chain-ex015-ey015-n05000--component-h-x-given-yz` · scenario = I039-chain-ex015-ey015-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i039-chain-ex015-ey015-n05000--component-h-x-given-z` · scenario = I039-chain-ex015-ey015-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i040-chain-ex015-ey015-n10000--component-h-x-given-yz` · scenario = I040-chain-ex015-ey015-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i040-chain-ex015-ey015-n10000--component-h-x-given-z` · scenario = I040-chain-ex015-ey015-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i041-chain-ex015-ey030-n00250--component-h-x-given-yz` · scenario = I041-chain-ex015-ey030-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i041-chain-ex015-ey030-n00250--component-h-x-given-z` · scenario = I041-chain-ex015-ey030-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i042-chain-ex015-ey030-n00500--component-h-x-given-yz` · scenario = I042-chain-ex015-ey030-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i042-chain-ex015-ey030-n00500--component-h-x-given-z` · scenario = I042-chain-ex015-ey030-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i043-chain-ex015-ey030-n01000--component-h-x-given-yz` · scenario = I043-chain-ex015-ey030-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i043-chain-ex015-ey030-n01000--component-h-x-given-z` · scenario = I043-chain-ex015-ey030-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i044-chain-ex015-ey030-n05000--component-h-x-given-yz` · scenario = I044-chain-ex015-ey030-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i044-chain-ex015-ey030-n05000--component-h-x-given-z` · scenario = I044-chain-ex015-ey030-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i045-chain-ex015-ey030-n10000--component-h-x-given-yz` · scenario = I045-chain-ex015-ey030-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i045-chain-ex015-ey030-n10000--component-h-x-given-z` · scenario = I045-chain-ex015-ey030-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i046-chain-ex015-ey050-n00250--component-h-x-given-yz` · scenario = I046-chain-ex015-ey050-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i046-chain-ex015-ey050-n00250--component-h-x-given-z` · scenario = I046-chain-ex015-ey050-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i047-chain-ex015-ey050-n00500--component-h-x-given-yz` · scenario = I047-chain-ex015-ey050-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i047-chain-ex015-ey050-n00500--component-h-x-given-z` · scenario = I047-chain-ex015-ey050-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i048-chain-ex015-ey050-n01000--component-h-x-given-yz` · scenario = I048-chain-ex015-ey050-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i048-chain-ex015-ey050-n01000--component-h-x-given-z` · scenario = I048-chain-ex015-ey050-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i049-chain-ex015-ey050-n05000--component-h-x-given-yz` · scenario = I049-chain-ex015-ey050-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i049-chain-ex015-ey050-n05000--component-h-x-given-z` · scenario = I049-chain-ex015-ey050-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i050-chain-ex015-ey050-n10000--component-h-x-given-yz` · scenario = I050-chain-ex015-ey050-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i050-chain-ex015-ey050-n10000--component-h-x-given-z` · scenario = I050-chain-ex015-ey050-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i051-chain-ex050-ey000-n00250--component-h-x-given-yz` · scenario = I051-chain-ex050-ey000-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i051-chain-ex050-ey000-n00250--component-h-x-given-z` · scenario = I051-chain-ex050-ey000-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i052-chain-ex050-ey000-n00500--component-h-x-given-yz` · scenario = I052-chain-ex050-ey000-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i052-chain-ex050-ey000-n00500--component-h-x-given-z` · scenario = I052-chain-ex050-ey000-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i053-chain-ex050-ey000-n01000--component-h-x-given-yz` · scenario = I053-chain-ex050-ey000-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i053-chain-ex050-ey000-n01000--component-h-x-given-z` · scenario = I053-chain-ex050-ey000-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i054-chain-ex050-ey000-n05000--component-h-x-given-yz` · scenario = I054-chain-ex050-ey000-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i054-chain-ex050-ey000-n05000--component-h-x-given-z` · scenario = I054-chain-ex050-ey000-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i055-chain-ex050-ey000-n10000--component-h-x-given-yz` · scenario = I055-chain-ex050-ey000-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i055-chain-ex050-ey000-n10000--component-h-x-given-z` · scenario = I055-chain-ex050-ey000-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i056-chain-ex050-ey005-n00250--component-h-x-given-yz` · scenario = I056-chain-ex050-ey005-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i056-chain-ex050-ey005-n00250--component-h-x-given-z` · scenario = I056-chain-ex050-ey005-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i057-chain-ex050-ey005-n00500--component-h-x-given-yz` · scenario = I057-chain-ex050-ey005-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i057-chain-ex050-ey005-n00500--component-h-x-given-z` · scenario = I057-chain-ex050-ey005-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i058-chain-ex050-ey005-n01000--component-h-x-given-yz` · scenario = I058-chain-ex050-ey005-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i058-chain-ex050-ey005-n01000--component-h-x-given-z` · scenario = I058-chain-ex050-ey005-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i059-chain-ex050-ey005-n05000--component-h-x-given-yz` · scenario = I059-chain-ex050-ey005-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i059-chain-ex050-ey005-n05000--component-h-x-given-z` · scenario = I059-chain-ex050-ey005-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i060-chain-ex050-ey005-n10000--component-h-x-given-yz` · scenario = I060-chain-ex050-ey005-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i060-chain-ex050-ey005-n10000--component-h-x-given-z` · scenario = I060-chain-ex050-ey005-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i061-chain-ex050-ey015-n00250--component-h-x-given-yz` · scenario = I061-chain-ex050-ey015-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i061-chain-ex050-ey015-n00250--component-h-x-given-z` · scenario = I061-chain-ex050-ey015-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i062-chain-ex050-ey015-n00500--component-h-x-given-yz` · scenario = I062-chain-ex050-ey015-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i062-chain-ex050-ey015-n00500--component-h-x-given-z` · scenario = I062-chain-ex050-ey015-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i063-chain-ex050-ey015-n01000--component-h-x-given-yz` · scenario = I063-chain-ex050-ey015-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i063-chain-ex050-ey015-n01000--component-h-x-given-z` · scenario = I063-chain-ex050-ey015-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i064-chain-ex050-ey015-n05000--component-h-x-given-yz` · scenario = I064-chain-ex050-ey015-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i064-chain-ex050-ey015-n05000--component-h-x-given-z` · scenario = I064-chain-ex050-ey015-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i065-chain-ex050-ey015-n10000--component-h-x-given-yz` · scenario = I065-chain-ex050-ey015-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i065-chain-ex050-ey015-n10000--component-h-x-given-z` · scenario = I065-chain-ex050-ey015-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i066-chain-ex050-ey030-n00250--component-h-x-given-yz` · scenario = I066-chain-ex050-ey030-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i066-chain-ex050-ey030-n00250--component-h-x-given-z` · scenario = I066-chain-ex050-ey030-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i067-chain-ex050-ey030-n00500--component-h-x-given-yz` · scenario = I067-chain-ex050-ey030-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i067-chain-ex050-ey030-n00500--component-h-x-given-z` · scenario = I067-chain-ex050-ey030-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i068-chain-ex050-ey030-n01000--component-h-x-given-yz` · scenario = I068-chain-ex050-ey030-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i068-chain-ex050-ey030-n01000--component-h-x-given-z` · scenario = I068-chain-ex050-ey030-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i069-chain-ex050-ey030-n05000--component-h-x-given-yz` · scenario = I069-chain-ex050-ey030-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i069-chain-ex050-ey030-n05000--component-h-x-given-z` · scenario = I069-chain-ex050-ey030-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i070-chain-ex050-ey030-n10000--component-h-x-given-yz` · scenario = I070-chain-ex050-ey030-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i070-chain-ex050-ey030-n10000--component-h-x-given-z` · scenario = I070-chain-ex050-ey030-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i071-chain-ex050-ey050-n00250--component-h-x-given-yz` · scenario = I071-chain-ex050-ey050-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i071-chain-ex050-ey050-n00250--component-h-x-given-z` · scenario = I071-chain-ex050-ey050-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i072-chain-ex050-ey050-n00500--component-h-x-given-yz` · scenario = I072-chain-ex050-ey050-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i072-chain-ex050-ey050-n00500--component-h-x-given-z` · scenario = I072-chain-ex050-ey050-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i073-chain-ex050-ey050-n01000--component-h-x-given-yz` · scenario = I073-chain-ex050-ey050-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i073-chain-ex050-ey050-n01000--component-h-x-given-z` · scenario = I073-chain-ex050-ey050-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i074-chain-ex050-ey050-n05000--component-h-x-given-yz` · scenario = I074-chain-ex050-ey050-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i074-chain-ex050-ey050-n05000--component-h-x-given-z` · scenario = I074-chain-ex050-ey050-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i075-chain-ex050-ey050-n10000--component-h-x-given-yz` · scenario = I075-chain-ex050-ey050-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i075-chain-ex050-ey050-n10000--component-h-x-given-z` · scenario = I075-chain-ex050-ey050-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i076-fork-ex015-ey015-n00250--component-h-x-given-yz` · scenario = I076-fork-ex015-ey015-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i076-fork-ex015-ey015-n00250--component-h-x-given-z` · scenario = I076-fork-ex015-ey015-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i077-fork-ex015-ey015-n00500--component-h-x-given-yz` · scenario = I077-fork-ex015-ey015-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i077-fork-ex015-ey015-n00500--component-h-x-given-z` · scenario = I077-fork-ex015-ey015-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i078-fork-ex015-ey015-n01000--component-h-x-given-yz` · scenario = I078-fork-ex015-ey015-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i078-fork-ex015-ey015-n01000--component-h-x-given-z` · scenario = I078-fork-ex015-ey015-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i079-fork-ex015-ey015-n05000--component-h-x-given-yz` · scenario = I079-fork-ex015-ey015-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i079-fork-ex015-ey015-n05000--component-h-x-given-z` · scenario = I079-fork-ex015-ey015-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i080-fork-ex015-ey015-n10000--component-h-x-given-yz` · scenario = I080-fork-ex015-ey015-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i080-fork-ex015-ey015-n10000--component-h-x-given-z` · scenario = I080-fork-ex015-ey015-n10000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i081-fork-ex015-ey050-n00250--component-h-x-given-yz` · scenario = I081-fork-ex015-ey050-n00250, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i081-fork-ex015-ey050-n00250--component-h-x-given-z` · scenario = I081-fork-ex015-ey050-n00250, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i082-fork-ex015-ey050-n00500--component-h-x-given-yz` · scenario = I082-fork-ex015-ey050-n00500, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i082-fork-ex015-ey050-n00500--component-h-x-given-z` · scenario = I082-fork-ex015-ey050-n00500, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i083-fork-ex015-ey050-n01000--component-h-x-given-yz` · scenario = I083-fork-ex015-ey050-n01000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i083-fork-ex015-ey050-n01000--component-h-x-given-z` · scenario = I083-fork-ex015-ey050-n01000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i084-fork-ex015-ey050-n05000--component-h-x-given-yz` · scenario = I084-fork-ex015-ey050-n05000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i084-fork-ex015-ey050-n05000--component-h-x-given-z` · scenario = I084-fork-ex015-ey050-n05000, componente = h_x_given_z · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i085-fork-ex015-ey050-n10000--component-h-x-given-yz` · scenario = I085-fork-ex015-ey050-n10000, componente = h_x_given_yz · origine `tables/terms.csv`
+- `conditional-term-validation--cell-id-i085-fork-ex015-ey050-n10000--component-h-x-given-z` · scenario = I085-fork-ex015-ey050-n10000, componente = h_x_given_z · origine `tables/terms.csv`

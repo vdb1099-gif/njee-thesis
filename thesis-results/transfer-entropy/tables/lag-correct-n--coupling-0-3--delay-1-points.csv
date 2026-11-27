@@ -1,0 +1,4 @@
+x,y,series,interval_lower,interval_upper,reference_nats,n_complete_or_evaluated,n_planned,csv_row_index_zero_based
+1000,0.86,lag_correct,0.7326039975029917,0.9418082996596279,,50,50,46
+5000,1.0,lag_correct,0.9288782635358024,1.0,,50,50,49
+10000,1.0,lag_correct,0.9288782635358024,1.0,,50,50,52
